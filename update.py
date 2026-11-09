@@ -83,9 +83,11 @@ print(f"Done. Succeeded: {len(rows)}. Failed: {len(still_failed)}")
 # ---------- 5. Combine everything into result tables ----------
 results = stocks.merge(pd.DataFrame(rows), on="Yahoo Code", how="left")
 results = results.drop(columns=["Yahoo Code"])
-results["Within 10% of High"] = np.where(
+
+# Stock is flagged if it is within 20% of its 52-week high
+results["Within 20% of High"] = np.where(
     results["Price"].notna(),
-    (results["% From 52W High"] >= -10).astype(int),
+    (results["% From 52W High"] >= -20).astype(int),
     np.nan,
 )
 
@@ -95,15 +97,15 @@ def make_summary(group_column):
     grouped = ok.groupby(group_column)
     table = pd.DataFrame({
         "Stocks": grouped.size(),
-        "Within 10% of High": grouped["Within 10% of High"].sum(),
+        "Within 20% of High": grouped["Within 20% of High"].sum(),
         "Avg 1M %": grouped["1M %"].mean(),
         "Avg 3M %": grouped["3M %"].mean(),
         "Avg 6M %": grouped["6M %"].mean(),
         "Avg 12M %": grouped["12M %"].mean(),
     })
     table = table[table["Stocks"] >= 5].copy()  # ignore groups with fewer than 5 stocks
-    table["% Within 10% of High"] = (table["Within 10% of High"] / table["Stocks"] * 100).round(1)
-    table = table.round(2).sort_values("% Within 10% of High", ascending=False)
+    table["% Within 20% of High"] = (table["Within 20% of High"] / table["Stocks"] * 100).round(1)
+    table = table.round(2).sort_values("% Within 20% of High", ascending=False)
     return table.reset_index()
 
 
