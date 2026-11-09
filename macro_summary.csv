@@ -1,13 +1,13 @@
-Macro-Economic Sector,Stocks,Within 10% of High,Avg 1M %,Avg 3M %,Avg 6M %,Avg 12M %,% Within 10% of High
-Healthcare,158,43.0,2.07,3.24,18.19,21.14,27.2
-Financial Services,248,45.0,1.09,-4.17,0.37,-0.03,18.1
-Services,113,19.0,2.69,-1.59,3.01,-3.38,16.8
-Consumer Discretionary,564,69.0,1.66,-4.21,0.91,-5.47,12.2
-Fast Moving Consumer Goods,147,16.0,0.65,-2.96,-5.13,-3.46,10.9
-Industrials,436,43.0,-1.91,-4.62,0.21,3.56,9.9
-Energy,41,4.0,-2.43,-0.24,13.47,11.11,9.8
-Commodities,277,19.0,-1.87,-5.82,-3.31,-6.85,6.9
-Information Technology,116,8.0,1.23,-6.79,-2.86,-15.06,6.9
-Telecommunication,23,1.0,-1.33,1.0,7.73,24.69,4.3
-Utilities,43,1.0,0.67,-12.79,-17.23,-18.16,2.3
-Diversified,6,0.0,-4.38,-14.74,-8.49,-10.99,0.0
+Macro-Economic Sector,Stocks,Within 20% of High,Avg 1M %,Avg 3M %,Avg 6M %,Avg 12M %,% Within 20% of High
+Healthcare,158,84.0,2.07,3.24,18.19,21.14,53.2
+Financial Services,248,118.0,1.09,-4.17,0.37,-0.03,47.6
+Services,113,45.0,2.69,-1.59,3.01,-3.38,39.8
+Energy,41,16.0,-2.43,-0.24,13.47,11.11,39.0
+Telecommunication,23,8.0,-1.33,1.0,7.73,24.69,34.8
+Consumer Discretionary,564,190.0,1.66,-4.21,0.91,-5.47,33.7
+Diversified,6,2.0,-4.38,-14.74,-8.49,-10.99,33.3
+Fast Moving Consumer Goods,147,44.0,0.65,-2.96,-5.13,-3.46,29.9
+Industrials,436,123.0,-1.91,-4.62,0.21,3.56,28.2
+Commodities,277,76.0,-1.87,-5.82,-3.31,-6.85,27.4
+Utilities,43,10.0,0.67,-12.79,-17.23,-18.16,23.3
+Information Technology,116,21.0,1.23,-6.79,-2.86,-15.06,18.1
