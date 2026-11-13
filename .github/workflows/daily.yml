@@ -11,6 +11,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 120
     steps:
       - name: Get the files
         uses: actions/checkout@v4
@@ -30,6 +31,6 @@ jobs:
         run: |
           git config user.name "daily-bot"
           git config user.email "daily-bot@users.noreply.github.com"
-          git add results.csv sector_summary.csv industry_summary.csv macro_summary.csv failed.csv
+          git add *.csv
           git commit -m "Daily update" || echo "No changes to save"
           git push
