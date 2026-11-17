@@ -1,44 +1,45 @@
 Industry Key,Sector,Industry,Stocks,Median 1W %,Median 1M %,Median 3M %,Median 6M %,Median 9M %,Median 12M %,Median % From 52W High,Within 20% of High (count),% Within 20% of High,Top 20% RS (count),RS 1W,RS 1M,RS 3M,RS 6M,RS 9M,RS 12M,RS 1Y,Top 20% Group,Rank
-"Media, Entertainment & Publication | Entertainment","Media, Entertainment & Publication",Entertainment,8,4.82,3.82,21.17,28.04,35.6,46.71,-2.38,5,62.5,5,95.3,79.1,100.0,97.7,93.0,100.0,98.1,Yes,1
-Telecommunication | Telecom - Equipment & Accessories,Telecommunication,Telecom - Equipment & Accessories,5,-2.6,-12.48,1.98,59.67,99.74,43.96,-26.22,1,20.0,3,4.7,4.7,81.4,100.0,100.0,97.7,92.1,Yes,2
-Textiles | Textiles & Apparels,Textiles,Textiles & Apparels,21,3.24,6.98,6.57,25.06,24.53,19.83,-13.58,12,57.1,8,83.7,93.0,97.7,95.3,83.7,83.7,91.6,Yes,3
-Healthcare | Pharmaceuticals & Biotechnology,Healthcare,Pharmaceuticals & Biotechnology,76,0.76,2.35,3.02,18.19,34.81,21.55,-15.08,51,67.1,21,46.5,74.4,90.7,81.4,90.7,86.0,87.9,Yes,4
-Services | Commercial Services & Supplies,Services,Commercial Services & Supplies,17,-0.92,-1.44,3.73,21.14,22.04,7.94,-18.82,9,52.9,5,18.6,34.9,93.0,88.4,76.7,62.8,82.8,Yes,5
-Financial Services | Capital Markets,Financial Services,Capital Markets,22,2.16,6.84,5.58,9.86,13.02,16.12,-13.42,16,72.7,5,74.4,90.7,95.3,69.8,65.1,79.1,80.9,Yes,6
-"Oil, Gas & Consumable Fuels | Oil","Oil, Gas & Consumable Fuels",Oil,9,0.65,-1.42,-2.46,23.72,32.62,12.94,-22.23,4,44.4,2,43.0,37.2,62.8,90.7,88.4,69.8,74.9,No,7
-Financial Services | Banks,Financial Services,Banks,36,4.98,5.86,2.72,10.67,5.71,14.05,-11.26,25,69.4,5,97.7,88.4,88.4,72.1,51.2,72.1,74.4,No,8
-Automobile and Auto Components | Auto Components,Automobile and Auto Components,Auto Components,56,2.3,4.41,-2.99,24.94,19.59,24.86,-16.58,38,67.9,12,79.1,86.0,55.8,93.0,74.4,88.4,73.5,No,9
-Healthcare | Healthcare Services,Healthcare,Healthcare Services,22,3.6,8.17,-0.07,7.37,24.22,9.27,-15.25,14,63.6,1,88.4,97.7,76.7,62.8,81.4,67.4,73.0,No,10
-Capital Goods | Industrial Manufacturing,Capital Goods,Industrial Manufacturing,30,1.3,-8.75,-1.4,19.08,15.93,9.22,-23.94,11,36.7,9,62.8,7.0,69.8,83.7,69.8,65.1,71.6,No,11
-Capital Goods | Aerospace & Defense,Capital Goods,Aerospace & Defense,20,5.0,0.02,-3.92,7.94,45.28,32.29,-17.89,13,65.0,5,100.0,58.1,48.8,65.1,95.3,95.3,70.7,No,12
-"Oil, Gas & Consumable Fuels | Petroleum Products","Oil, Gas & Consumable Fuels",Petroleum Products,10,-0.84,-3.69,2.09,11.98,3.63,5.58,-18.58,6,60.0,2,20.9,23.3,83.7,74.4,48.8,58.1,69.7,No,13
-Capital Goods | Industrial Products,Capital Goods,Industrial Products,91,1.84,-4.84,-2.85,5.94,22.58,18.26,-22.94,37,40.7,16,69.8,18.6,58.1,55.8,79.1,81.4,66.5,No,14
-Services | Transport Infrastructure,Services,Transport Infrastructure,5,3.09,2.21,-1.17,7.19,5.85,6.42,-10.6,4,80.0,0,81.4,72.1,74.4,58.1,53.5,60.5,64.2,No,15
-"Capital Goods | Agricultural, Commercial & Construction Vehicles",Capital Goods,"Agricultural, Commercial & Construction Vehicles",6,-0.48,0.7,-3.24,13.7,11.34,15.31,-17.92,3,50.0,0,25.6,62.8,53.5,79.1,60.5,74.4,64.2,No,15
-Fast Moving Consumer Goods | Agricultural Food & other Products,Fast Moving Consumer Goods,Agricultural Food & other Products,24,0.53,-5.28,2.51,0.7,11.51,-3.0,-20.28,11,45.8,3,39.5,14.0,86.0,37.2,62.8,37.2,61.8,No,17
-"Oil, Gas & Consumable Fuels | Gas","Oil, Gas & Consumable Fuels",Gas,8,3.33,-0.12,-1.7,7.26,9.54,1.02,-24.26,4,50.0,0,86.0,53.5,67.4,60.5,58.1,53.5,61.4,No,18
-Information Technology | IT - Hardware,Information Technology,IT - Hardware,4,-3.0,-17.63,-22.48,21.02,47.8,27.02,-31.95,0,0.0,0,2.3,2.3,2.3,86.0,97.7,90.7,55.8,No,19
-Consumer Services | Leisure Services,Consumer Services,Leisure Services,21,-0.02,3.37,-1.23,12.84,-1.8,-15.68,-19.86,11,52.4,3,34.9,76.7,72.1,76.7,39.5,18.6,55.8,No,19
-Services | Transport Services,Services,Transport Services,14,1.64,-0.36,-4.73,4.58,17.12,3.84,-16.13,9,64.3,1,65.1,51.2,44.2,46.5,72.1,55.8,52.6,No,21
-Financial Services | Fintech,Financial Services,Fintech,5,4.46,1.17,1.87,8.98,-22.2,-22.94,-40.25,2,40.0,1,90.7,67.4,79.1,67.4,2.3,4.7,46.5,No,22
-Capital Goods | Electrical Equipment,Capital Goods,Electrical Equipment,41,0.45,-8.26,-10.19,-0.25,24.62,15.34,-25.8,11,26.8,3,37.2,9.3,14.0,32.6,86.0,76.7,44.7,No,23
-Metals & Mining | Ferrous Metals,Metals & Mining,Ferrous Metals,9,-1.66,0.65,-1.86,-14.13,-5.6,-1.25,-18.47,5,55.6,0,11.6,60.5,65.1,11.6,25.6,44.2,42.3,No,24
-Telecommunication | Telecom - Services,Telecommunication,Telecom - Services,12,2.19,3.91,-4.26,-3.03,-2.78,-0.45,-23.26,4,33.3,1,76.7,81.4,46.5,27.9,32.6,48.8,40.5,No,25
-Chemicals | Chemicals & Petrochemicals,Chemicals,Chemicals & Petrochemicals,52,0.96,-7.27,-8.06,2.16,13.48,-0.56,-24.46,20,38.5,7,51.2,11.6,23.3,39.5,67.4,46.5,40.0,No,26
-Automobile and Auto Components | Automobiles,Automobile and Auto Components,Automobiles,12,-1.3,7.03,-7.4,5.23,-2.2,-1.94,-14.26,7,58.3,1,14.0,95.3,27.9,51.2,37.2,41.9,37.2,No,27
-Information Technology | IT - Software,Information Technology,IT - Software,30,-2.43,-0.07,-2.54,4.04,-17.48,-17.56,-32.72,7,23.3,3,7.0,55.8,60.5,44.2,7.0,14.0,37.2,No,27
-Consumer Durables | Consumer Durables,Consumer Durables,Consumer Durables,59,0.65,-1.1,-7.56,5.28,0.31,-9.01,-23.47,22,37.3,9,43.0,44.2,25.6,53.5,44.2,27.9,35.4,No,29
-Information Technology | IT - Services,Information Technology,IT - Services,23,-0.16,-5.08,-9.13,4.82,6.87,-2.91,-28.37,7,30.4,0,32.6,16.3,16.3,48.8,55.8,39.5,35.3,No,30
-Realty | Realty,Realty,Realty,24,1.03,3.96,-3.5,-0.33,-4.53,-18.28,-26.74,8,33.3,1,58.1,83.7,51.2,30.2,27.9,11.6,34.4,No,31
-Financial Services | Finance,Financial Services,Finance,62,1.21,-0.49,-6.8,0.01,-4.13,-7.67,-20.29,30,48.4,4,60.5,48.8,34.9,34.9,30.2,30.2,33.0,No,32
-Fast Moving Consumer Goods | Beverages,Fast Moving Consumer Goods,Beverages,9,1.97,-1.16,-7.11,-7.27,-0.02,-6.64,-21.19,4,44.4,1,72.1,41.9,30.2,20.9,41.9,32.6,31.2,No,33
-Fast Moving Consumer Goods | Food Products,Fast Moving Consumer Goods,Food Products,17,-0.52,-3.53,-8.25,-4.3,-2.26,0.39,-22.93,6,35.3,2,23.3,25.6,20.9,25.6,34.9,51.2,30.7,No,34
-Financial Services | Insurance,Financial Services,Insurance,13,1.77,1.52,-5.62,-4.47,-8.34,-11.79,-19.21,7,53.8,0,67.4,69.8,41.9,23.3,18.6,23.3,29.8,No,35
-Metals & Mining | Non-Ferrous Metals,Metals & Mining,Non-Ferrous Metals,6,-2.23,-3.07,-11.75,-17.79,-8.0,30.07,-25.32,1,16.7,0,9.3,27.9,7.0,7.0,20.9,93.0,27.0,No,36
-Construction Materials | Cement & Cement Products,Construction Materials,Cement & Cement Products,12,-0.34,8.26,-6.11,-7.64,-17.17,-10.22,-22.15,6,50.0,0,30.2,100.0,37.2,18.6,9.3,25.6,25.6,No,37
-Consumer Services | Retailing,Consumer Services,Retailing,27,0.96,-1.26,-11.31,3.32,0.66,-22.11,-29.95,11,40.7,4,53.5,39.5,9.3,41.9,46.5,7.0,22.8,No,38
-Fast Moving Consumer Goods | Personal Products,Fast Moving Consumer Goods,Personal Products,9,4.52,1.1,-5.94,-12.6,-17.95,-16.95,-23.96,3,33.3,2,93.0,65.1,39.5,14.0,4.7,16.3,22.8,No,38
-Power | Power,Power,Power,22,-0.36,-1.69,-8.68,-18.72,-7.95,-5.97,-27.75,8,36.4,1,27.9,32.6,18.6,4.7,23.3,34.9,20.0,No,40
-Construction | Construction,Construction,Construction,29,0.84,-0.77,-6.86,-14.88,-14.48,-27.57,-33.19,7,24.1,3,48.8,46.5,32.6,9.3,16.3,2.3,18.6,No,41
-Chemicals | Fertilizers & Agrochemicals,Chemicals,Fertilizers & Agrochemicals,18,0.98,-2.65,-10.42,-11.89,-14.66,-20.82,-30.14,2,11.1,2,55.8,30.2,11.6,16.3,14.0,9.3,12.6,No,42
-Metals & Mining | Minerals & Mining,Metals & Mining,Minerals & Mining,6,-1.29,-4.11,-18.01,-25.96,-16.76,-15.52,-32.74,1,16.7,0,16.3,20.9,4.7,2.3,11.6,20.9,8.8,No,43
+"Media, Entertainment & Publication | Entertainment","Media, Entertainment & Publication",Entertainment,8,3.82,4.64,21.92,27.65,32.75,54.96,-2.44,5,62.5,4,93.2,75.0,100.0,95.5,88.6,100.0,96.8,Yes,1
+Textiles | Textiles & Apparels,Textiles,Textiles & Apparels,23,2.62,6.56,10.71,32.09,24.96,19.59,-11.99,13,56.5,9,84.1,88.6,97.7,97.7,86.4,84.1,92.7,Yes,2
+Telecommunication | Telecom - Equipment & Accessories,Telecommunication,Telecom - Equipment & Accessories,5,-3.37,-13.55,-0.96,52.81,84.38,41.22,-29.73,1,20.0,3,2.3,4.5,65.9,100.0,100.0,97.7,85.9,Yes,3
+Healthcare | Pharmaceuticals & Biotechnology,Healthcare,Pharmaceuticals & Biotechnology,77,-2.07,3.05,3.89,18.59,33.63,22.02,-14.85,50,64.9,21,13.6,68.2,84.1,81.8,90.9,88.6,85.9,Yes,3
+Services | Commercial Services & Supplies,Services,Commercial Services & Supplies,17,1.22,0.77,4.29,23.19,24.69,9.99,-18.21,9,52.9,4,63.6,56.8,93.2,90.9,84.1,65.9,85.5,Yes,5
+"Oil, Gas & Consumable Fuels | Oil","Oil, Gas & Consumable Fuels",Oil,9,-0.98,-2.67,1.08,20.31,35.81,12.65,-24.43,4,44.4,1,25.0,25.0,77.3,86.4,93.2,70.5,80.9,Yes,6
+Financial Services | Capital Markets,Financial Services,Capital Markets,23,2.48,7.94,4.79,9.54,14.25,14.31,-13.17,16,69.6,4,79.5,93.2,95.5,65.9,72.7,72.7,80.5,Yes,7
+Financial Services | Banks,Financial Services,Banks,36,4.72,6.29,3.98,13.88,3.74,16.08,-8.89,26,72.2,6,95.5,86.4,86.4,72.7,54.5,77.3,75.5,No,8
+Automobile and Auto Components | Auto Components,Automobile and Auto Components,Auto Components,56,1.65,5.06,-2.02,24.93,15.55,20.3,-15.92,38,67.9,13,72.7,79.5,59.1,93.2,75.0,86.4,74.6,No,9
+"Oil, Gas & Consumable Fuels | Petroleum Products","Oil, Gas & Consumable Fuels",Petroleum Products,10,-1.02,0.38,4.13,14.88,0.71,6.22,-18.18,6,60.0,2,22.7,52.3,90.9,75.0,47.7,56.8,72.3,No,10
+"Capital Goods | Agricultural, Commercial & Construction Vehicles",Capital Goods,"Agricultural, Commercial & Construction Vehicles",6,1.34,3.48,-0.94,17.71,7.34,15.51,-16.97,3,50.0,0,65.9,72.7,68.2,79.5,63.6,75.0,70.9,No,11
+Capital Goods | Aerospace & Defense,Capital Goods,Aerospace & Defense,20,1.5,0.27,-4.78,9.82,40.97,31.33,-18.38,13,65.0,5,70.5,48.9,43.2,68.2,97.7,95.5,69.6,No,12
+Services | Transport Infrastructure,Services,Transport Infrastructure,5,3.31,4.84,2.95,8.19,6.65,9.25,-9.63,4,80.0,0,90.9,77.3,79.5,61.4,61.4,61.4,68.6,No,13
+Capital Goods | Industrial Products,Capital Goods,Industrial Products,90,0.14,-4.19,-3.09,9.11,17.42,19.14,-22.8,37,41.1,16,43.2,13.6,52.3,63.6,77.3,81.8,65.5,No,14
+Healthcare | Healthcare Services,Healthcare,Healthcare Services,22,1.02,8.88,-1.32,5.72,22.78,9.61,-13.72,13,59.1,1,59.1,100.0,61.4,54.5,81.8,63.6,64.5,No,15
+Services | Transport Services,Services,Transport Services,15,3.3,3.18,-0.38,4.73,9.3,7.54,-15.2,9,60.0,1,88.6,70.5,72.7,47.7,68.2,59.1,64.1,No,16
+Capital Goods | Industrial Manufacturing,Capital Goods,Industrial Manufacturing,29,1.4,-4.14,-4.08,18.82,8.59,10.07,-24.26,10,34.5,7,68.2,15.9,47.7,84.1,65.9,68.2,62.7,No,17
+Fast Moving Consumer Goods | Agricultural Food & other Products,Fast Moving Consumer Goods,Agricultural Food & other Products,25,0.34,-4.59,3.05,2.88,5.3,1.25,-21.14,12,48.0,4,47.7,11.4,81.8,36.4,59.1,50.0,61.8,No,18
+Consumer Services | Leisure Services,Consumer Services,Leisure Services,21,2.51,6.22,0.42,15.11,-3.64,-13.29,-19.22,11,52.4,4,81.8,84.1,75.0,77.3,36.4,20.5,56.8,No,19
+Information Technology | IT - Hardware,Information Technology,IT - Hardware,4,-2.66,-17.0,-20.64,22.83,37.26,24.96,-33.53,0,0.0,0,6.8,2.3,2.3,88.6,95.5,90.9,55.9,No,20
+"Oil, Gas & Consumable Fuels | Gas","Oil, Gas & Consumable Fuels",Gas,8,-0.08,1.08,-2.86,4.52,9.48,0.54,-25.38,3,37.5,0,38.6,61.4,54.5,45.5,70.5,45.5,54.1,No,21
+Financial Services | Fintech,Financial Services,Fintech,5,5.96,-0.83,3.99,12.43,-20.97,-19.86,-39.63,2,40.0,1,97.7,29.5,88.6,70.5,2.3,9.1,51.8,No,22
+Metals & Mining | Ferrous Metals,Metals & Mining,Ferrous Metals,8,-0.92,0.8,-0.74,-9.5,-6.25,1.94,-17.34,5,62.5,0,27.3,59.1,70.5,15.9,27.3,54.5,47.7,No,23
+Telecommunication | Telecom - Services,Telecommunication,Telecom - Services,12,-0.84,2.24,-2.76,-2.85,-5.07,-2.94,-23.32,4,33.3,1,29.5,65.9,56.8,29.5,34.1,40.9,43.6,No,24
+Automobile and Auto Components | Automobiles,Automobile and Auto Components,Automobiles,12,-1.2,7.61,-5.74,6.0,-2.91,-1.7,-13.67,7,58.3,1,20.5,90.9,38.6,56.8,38.6,43.2,43.2,No,25
+Realty | Realty,Realty,Realty,24,2.86,8.06,-1.12,3.33,-5.65,-17.9,-24.46,10,41.7,1,86.4,95.5,63.6,43.2,29.5,15.9,43.2,No,25
+Information Technology | IT - Services,Information Technology,IT - Services,23,0.14,-3.43,-6.19,6.32,2.32,-3.71,-30.27,7,30.4,0,40.9,18.2,29.5,59.1,52.3,38.6,41.8,No,27
+Capital Goods | Electrical Equipment,Capital Goods,Electrical Equipment,41,-1.56,-5.69,-10.29,-1.91,20.93,18.02,-26.44,10,24.4,3,18.2,6.8,9.1,31.8,79.5,79.5,41.8,No,27
+Chemicals | Chemicals & Petrochemicals,Chemicals,Chemicals & Petrochemicals,50,0.62,-5.54,-8.32,5.29,4.38,1.25,-24.14,20,40.0,6,52.3,9.1,20.5,52.3,56.8,47.7,39.6,No,29
+Consumer Durables | Consumer Durables,Consumer Durables,Consumer Durables,60,-0.5,-0.75,-5.98,5.11,-2.48,-10.36,-23.95,22,36.7,8,31.8,34.1,36.4,50.0,40.9,25.0,37.7,No,30
+Fast Moving Consumer Goods | Food Products,Fast Moving Consumer Goods,Food Products,17,-0.27,-0.2,-9.79,-4.91,0.42,1.84,-23.8,8,47.1,2,36.4,43.2,15.9,25.0,45.5,52.3,30.9,No,31
+Construction Materials | Cement & Cement Products,Construction Materials,Cement & Cement Products,13,1.08,8.1,-5.54,-3.79,-11.8,-8.09,-16.64,7,53.8,0,61.4,97.7,40.9,27.3,15.9,27.3,30.5,No,32
+Information Technology | IT - Software,Information Technology,IT - Software,30,-2.35,-0.54,-3.74,3.3,-20.77,-19.92,-34.48,6,20.0,3,9.1,40.9,50.0,40.9,4.5,6.8,30.4,No,33
+Diversified | Diversified,Diversified,Diversified,4,8.46,5.93,-8.9,-6.44,0.87,-5.52,-18.86,2,50.0,0,100.0,81.8,18.2,20.5,50.0,36.4,28.7,No,34
+Metals & Mining | Non-Ferrous Metals,Metals & Mining,Non-Ferrous Metals,6,-3.27,-1.25,-9.88,-13.77,-10.25,28.51,-25.11,1,16.7,0,4.5,27.3,11.4,9.1,18.2,93.2,28.7,No,34
+Financial Services | Finance,Financial Services,Finance,62,0.46,0.27,-6.85,0.26,-6.26,-7.33,-20.04,31,50.0,4,50.0,48.9,27.3,34.1,25.0,29.5,28.6,No,36
+Fast Moving Consumer Goods | Beverages,Fast Moving Consumer Goods,Beverages,9,0.81,0.26,-7.43,-7.86,-5.56,-6.76,-22.46,4,44.4,1,56.8,45.5,25.0,18.2,31.8,34.1,26.8,No,37
+Financial Services | Insurance,Financial Services,Insurance,13,2.02,0.55,-6.15,-5.55,-10.2,-11.62,-21.81,6,46.2,0,77.3,54.5,31.8,22.7,20.5,22.7,25.9,No,38
+Fast Moving Consumer Goods | Personal Products,Fast Moving Consumer Goods,Personal Products,9,1.77,1.19,-4.29,-12.92,-18.05,-18.64,-23.28,3,33.3,2,75.0,63.6,45.5,11.4,11.4,11.4,25.0,No,39
+Consumer Services | Retailing,Consumer Services,Retailing,26,0.34,-0.76,-10.87,3.16,-1.32,-18.16,-29.28,9,34.6,4,45.5,31.8,6.8,38.6,43.2,13.6,21.8,No,40
+Power | Power,Power,Power,22,-1.84,-0.62,-7.81,-16.84,-9.5,-7.23,-28.12,8,36.4,1,15.9,38.6,22.7,4.5,22.7,31.8,20.9,No,41
+Construction | Construction,Construction,Construction,29,-0.37,-0.64,-6.07,-10.91,-14.62,-28.66,-33.35,9,31.0,3,34.1,36.4,34.1,13.6,13.6,2.3,19.5,No,42
+Chemicals | Fertilizers & Agrochemicals,Chemicals,Fertilizers & Agrochemicals,17,0.75,-3.22,-9.82,-13.86,-18.26,-21.22,-30.55,3,17.6,2,54.5,20.5,13.6,6.8,9.1,4.5,9.5,No,43
+Metals & Mining | Minerals & Mining,Metals & Mining,Minerals & Mining,6,-2.19,-2.9,-17.25,-24.97,-18.82,-16.85,-33.02,1,16.7,0,11.4,22.7,4.5,2.3,6.8,18.2,7.3,No,44

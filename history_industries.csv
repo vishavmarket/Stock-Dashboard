@@ -1,47 +1,4 @@
 Date,Industry Key,Sector,Industry,Stocks,% Within 20% of High,RS 1Y,Rank
-2026-11-09,Telecommunication | Telecom - Equipment & Accessories,Telecommunication,Telecom - Equipment & Accessories,5,40.0,94.9,1
-2026-11-09,"Media, Entertainment & Publication | Entertainment","Media, Entertainment & Publication",Entertainment,8,62.5,94.9,1
-2026-11-09,Healthcare | Pharmaceuticals & Biotechnology,Healthcare,Pharmaceuticals & Biotechnology,75,70.7,93.0,3
-2026-11-09,Services | Transport Infrastructure,Services,Transport Infrastructure,4,100.0,85.1,4
-2026-11-09,Capital Goods | Industrial Manufacturing,Capital Goods,Industrial Manufacturing,29,37.9,82.3,5
-2026-11-09,Capital Goods | Aerospace & Defense,Capital Goods,Aerospace & Defense,20,60.0,81.4,6
-2026-11-09,"Oil, Gas & Consumable Fuels | Petroleum Products","Oil, Gas & Consumable Fuels",Petroleum Products,10,60.0,73.5,7
-2026-11-09,Services | Commercial Services & Supplies,Services,Commercial Services & Supplies,20,45.0,72.1,8
-2026-11-09,"Oil, Gas & Consumable Fuels | Oil","Oil, Gas & Consumable Fuels",Oil,7,14.3,71.6,9
-2026-11-09,Textiles | Textiles & Apparels,Textiles,Textiles & Apparels,21,61.9,71.1,10
-2026-11-09,Automobile and Auto Components | Auto Components,Automobile and Auto Components,Auto Components,52,55.8,70.7,11
-2026-11-09,Financial Services | Capital Markets,Financial Services,Capital Markets,25,68.0,68.8,12
-2026-11-09,Fast Moving Consumer Goods | Agricultural Food & other Products,Fast Moving Consumer Goods,Agricultural Food & other Products,24,45.8,67.9,13
-2026-11-09,Healthcare | Healthcare Services,Healthcare,Healthcare Services,21,57.1,65.6,14
-2026-11-09,Financial Services | Banks,Financial Services,Banks,35,68.6,63.7,15
-2026-11-09,Capital Goods | Industrial Products,Capital Goods,Industrial Products,92,34.8,62.8,16
-2026-11-09,"Capital Goods | Agricultural, Commercial & Construction Vehicles",Capital Goods,"Agricultural, Commercial & Construction Vehicles",6,66.7,61.9,17
-2026-11-09,Information Technology | IT - Hardware,Information Technology,IT - Hardware,4,0.0,57.7,18
-2026-11-09,Services | Transport Services,Services,Transport Services,13,61.5,57.2,19
-2026-11-09,Telecommunication | Telecom - Services,Telecommunication,Telecom - Services,12,41.7,57.2,19
-2026-11-09,"Oil, Gas & Consumable Fuels | Gas","Oil, Gas & Consumable Fuels",Gas,8,50.0,47.9,21
-2026-11-09,Capital Goods | Electrical Equipment,Capital Goods,Electrical Equipment,43,20.9,46.0,22
-2026-11-09,Information Technology | IT - Software,Information Technology,IT - Software,30,26.7,45.1,23
-2026-11-09,Realty | Realty,Realty,Realty,24,33.3,44.6,24
-2026-11-09,Automobile and Auto Components | Automobiles,Automobile and Auto Components,Automobiles,13,53.8,44.2,25
-2026-11-09,Metals & Mining | Ferrous Metals,Metals & Mining,Ferrous Metals,9,44.4,42.8,26
-2026-11-09,Chemicals | Chemicals & Petrochemicals,Chemicals,Chemicals & Petrochemicals,52,34.6,41.9,27
-2026-11-09,Financial Services | Fintech,Financial Services,Fintech,5,40.0,40.9,28
-2026-11-09,Fast Moving Consumer Goods | Beverages,Fast Moving Consumer Goods,Beverages,9,33.3,40.9,28
-2026-11-09,Consumer Services | Leisure Services,Consumer Services,Leisure Services,20,40.0,40.5,30
-2026-11-09,Consumer Durables | Consumer Durables,Consumer Durables,Consumer Durables,58,39.7,40.5,30
-2026-11-09,Information Technology | IT - Services,Information Technology,IT - Services,22,22.7,39.1,32
-2026-11-09,Financial Services | Finance,Financial Services,Finance,62,54.8,34.4,33
-2026-11-09,Metals & Mining | Non-Ferrous Metals,Metals & Mining,Non-Ferrous Metals,6,50.0,33.5,34
-2026-11-09,Fast Moving Consumer Goods | Food Products,Fast Moving Consumer Goods,Food Products,16,31.2,31.2,35
-2026-11-09,Financial Services | Insurance,Financial Services,Insurance,13,46.2,28.4,36
-2026-11-09,Power | Power,Power,Power,23,39.1,23.3,37
-2026-11-09,Consumer Services | Retailing,Consumer Services,Retailing,26,38.5,18.2,38
-2026-11-09,Fast Moving Consumer Goods | Personal Products,Fast Moving Consumer Goods,Personal Products,9,33.3,18.1,39
-2026-11-09,Construction Materials | Cement & Cement Products,Construction Materials,Cement & Cement Products,12,41.7,14.9,40
-2026-11-09,Metals & Mining | Minerals & Mining,Metals & Mining,Minerals & Mining,6,16.7,10.7,41
-2026-11-09,Chemicals | Fertilizers & Agrochemicals,Chemicals,Fertilizers & Agrochemicals,18,11.1,10.2,42
-2026-11-09,Construction | Construction,Construction,Construction,29,24.1,9.3,43
 2026-11-11,Telecommunication | Telecom - Equipment & Accessories,Telecommunication,Telecom - Equipment & Accessories,5,20.0,98.2,1
 2026-11-11,"Media, Entertainment & Publication | Entertainment","Media, Entertainment & Publication",Entertainment,8,62.5,95.0,2
 2026-11-11,Healthcare | Pharmaceuticals & Biotechnology,Healthcare,Pharmaceuticals & Biotechnology,75,72.0,91.4,3
@@ -173,9 +130,9 @@ Date,Industry Key,Sector,Industry,Stocks,% Within 20% of High,RS 1Y,Rank
 2026-11-13,Construction Materials | Cement & Cement Products,Construction Materials,Cement & Cement Products,12,50.0,17.2,41
 2026-11-13,Chemicals | Fertilizers & Agrochemicals,Chemicals,Fertilizers & Agrochemicals,18,11.1,12.1,42
 2026-11-13,Metals & Mining | Minerals & Mining,Metals & Mining,Minerals & Mining,6,16.7,7.4,43
-2026-11-16,"Media, Entertainment & Publication | Entertainment","Media, Entertainment & Publication",Entertainment,8,62.5,98.1,1
+2026-11-16,"Media, Entertainment & Publication | Entertainment","Media, Entertainment & Publication",Entertainment,8,62.5,97.7,1
+2026-11-16,Textiles | Textiles & Apparels,Textiles,Textiles & Apparels,22,54.5,92.1,2
 2026-11-16,Telecommunication | Telecom - Equipment & Accessories,Telecommunication,Telecom - Equipment & Accessories,5,20.0,92.1,2
-2026-11-16,Textiles | Textiles & Apparels,Textiles,Textiles & Apparels,21,57.1,91.6,3
 2026-11-16,Healthcare | Pharmaceuticals & Biotechnology,Healthcare,Pharmaceuticals & Biotechnology,76,67.1,87.9,4
 2026-11-16,Services | Commercial Services & Supplies,Services,Commercial Services & Supplies,17,52.9,82.8,5
 2026-11-16,Financial Services | Capital Markets,Financial Services,Capital Markets,22,72.7,80.9,6
@@ -186,7 +143,7 @@ Date,Industry Key,Sector,Industry,Stocks,% Within 20% of High,RS 1Y,Rank
 2026-11-16,Capital Goods | Industrial Manufacturing,Capital Goods,Industrial Manufacturing,30,36.7,71.6,11
 2026-11-16,Capital Goods | Aerospace & Defense,Capital Goods,Aerospace & Defense,20,65.0,70.7,12
 2026-11-16,"Oil, Gas & Consumable Fuels | Petroleum Products","Oil, Gas & Consumable Fuels",Petroleum Products,10,60.0,69.7,13
-2026-11-16,Capital Goods | Industrial Products,Capital Goods,Industrial Products,91,40.7,66.5,14
+2026-11-16,Capital Goods | Industrial Products,Capital Goods,Industrial Products,91,40.7,67.0,14
 2026-11-16,Services | Transport Infrastructure,Services,Transport Infrastructure,5,80.0,64.2,15
 2026-11-16,"Capital Goods | Agricultural, Commercial & Construction Vehicles",Capital Goods,"Agricultural, Commercial & Construction Vehicles",6,50.0,64.2,15
 2026-11-16,Fast Moving Consumer Goods | Agricultural Food & other Products,Fast Moving Consumer Goods,Agricultural Food & other Products,24,45.8,61.8,17
@@ -195,7 +152,7 @@ Date,Industry Key,Sector,Industry,Stocks,% Within 20% of High,RS 1Y,Rank
 2026-11-16,Consumer Services | Leisure Services,Consumer Services,Leisure Services,21,52.4,55.8,19
 2026-11-16,Services | Transport Services,Services,Transport Services,14,64.3,52.6,21
 2026-11-16,Financial Services | Fintech,Financial Services,Fintech,5,40.0,46.5,22
-2026-11-16,Capital Goods | Electrical Equipment,Capital Goods,Electrical Equipment,41,26.8,44.7,23
+2026-11-16,Capital Goods | Electrical Equipment,Capital Goods,Electrical Equipment,41,26.8,44.2,23
 2026-11-16,Metals & Mining | Ferrous Metals,Metals & Mining,Ferrous Metals,9,55.6,42.3,24
 2026-11-16,Telecommunication | Telecom - Services,Telecommunication,Telecom - Services,12,33.3,40.5,25
 2026-11-16,Chemicals | Chemicals & Petrochemicals,Chemicals,Chemicals & Petrochemicals,52,38.5,40.0,26
@@ -216,3 +173,47 @@ Date,Industry Key,Sector,Industry,Stocks,% Within 20% of High,RS 1Y,Rank
 2026-11-16,Construction | Construction,Construction,Construction,29,24.1,18.6,41
 2026-11-16,Chemicals | Fertilizers & Agrochemicals,Chemicals,Fertilizers & Agrochemicals,18,11.1,12.6,42
 2026-11-16,Metals & Mining | Minerals & Mining,Metals & Mining,Minerals & Mining,6,16.7,8.8,43
+2026-11-17,"Media, Entertainment & Publication | Entertainment","Media, Entertainment & Publication",Entertainment,8,62.5,96.8,1
+2026-11-17,Textiles | Textiles & Apparels,Textiles,Textiles & Apparels,23,56.5,92.7,2
+2026-11-17,Telecommunication | Telecom - Equipment & Accessories,Telecommunication,Telecom - Equipment & Accessories,5,20.0,85.9,3
+2026-11-17,Healthcare | Pharmaceuticals & Biotechnology,Healthcare,Pharmaceuticals & Biotechnology,77,64.9,85.9,3
+2026-11-17,Services | Commercial Services & Supplies,Services,Commercial Services & Supplies,17,52.9,85.5,5
+2026-11-17,"Oil, Gas & Consumable Fuels | Oil","Oil, Gas & Consumable Fuels",Oil,9,44.4,80.9,6
+2026-11-17,Financial Services | Capital Markets,Financial Services,Capital Markets,23,69.6,80.5,7
+2026-11-17,Financial Services | Banks,Financial Services,Banks,36,72.2,75.5,8
+2026-11-17,Automobile and Auto Components | Auto Components,Automobile and Auto Components,Auto Components,56,67.9,74.6,9
+2026-11-17,"Oil, Gas & Consumable Fuels | Petroleum Products","Oil, Gas & Consumable Fuels",Petroleum Products,10,60.0,72.3,10
+2026-11-17,"Capital Goods | Agricultural, Commercial & Construction Vehicles",Capital Goods,"Agricultural, Commercial & Construction Vehicles",6,50.0,70.9,11
+2026-11-17,Capital Goods | Aerospace & Defense,Capital Goods,Aerospace & Defense,20,65.0,69.6,12
+2026-11-17,Services | Transport Infrastructure,Services,Transport Infrastructure,5,80.0,68.6,13
+2026-11-17,Capital Goods | Industrial Products,Capital Goods,Industrial Products,90,41.1,65.5,14
+2026-11-17,Healthcare | Healthcare Services,Healthcare,Healthcare Services,22,59.1,64.5,15
+2026-11-17,Services | Transport Services,Services,Transport Services,15,60.0,64.1,16
+2026-11-17,Capital Goods | Industrial Manufacturing,Capital Goods,Industrial Manufacturing,29,34.5,62.7,17
+2026-11-17,Fast Moving Consumer Goods | Agricultural Food & other Products,Fast Moving Consumer Goods,Agricultural Food & other Products,25,48.0,61.8,18
+2026-11-17,Consumer Services | Leisure Services,Consumer Services,Leisure Services,21,52.4,56.8,19
+2026-11-17,Information Technology | IT - Hardware,Information Technology,IT - Hardware,4,0.0,55.9,20
+2026-11-17,"Oil, Gas & Consumable Fuels | Gas","Oil, Gas & Consumable Fuels",Gas,8,37.5,54.1,21
+2026-11-17,Financial Services | Fintech,Financial Services,Fintech,5,40.0,51.8,22
+2026-11-17,Metals & Mining | Ferrous Metals,Metals & Mining,Ferrous Metals,8,62.5,47.7,23
+2026-11-17,Telecommunication | Telecom - Services,Telecommunication,Telecom - Services,12,33.3,43.6,24
+2026-11-17,Automobile and Auto Components | Automobiles,Automobile and Auto Components,Automobiles,12,58.3,43.2,25
+2026-11-17,Realty | Realty,Realty,Realty,24,41.7,43.2,25
+2026-11-17,Information Technology | IT - Services,Information Technology,IT - Services,23,30.4,41.8,27
+2026-11-17,Capital Goods | Electrical Equipment,Capital Goods,Electrical Equipment,41,24.4,41.8,27
+2026-11-17,Chemicals | Chemicals & Petrochemicals,Chemicals,Chemicals & Petrochemicals,50,40.0,39.6,29
+2026-11-17,Consumer Durables | Consumer Durables,Consumer Durables,Consumer Durables,60,36.7,37.7,30
+2026-11-17,Fast Moving Consumer Goods | Food Products,Fast Moving Consumer Goods,Food Products,17,47.1,30.9,31
+2026-11-17,Construction Materials | Cement & Cement Products,Construction Materials,Cement & Cement Products,13,53.8,30.5,32
+2026-11-17,Information Technology | IT - Software,Information Technology,IT - Software,30,20.0,30.4,33
+2026-11-17,Diversified | Diversified,Diversified,Diversified,4,50.0,28.7,34
+2026-11-17,Metals & Mining | Non-Ferrous Metals,Metals & Mining,Non-Ferrous Metals,6,16.7,28.7,34
+2026-11-17,Financial Services | Finance,Financial Services,Finance,62,50.0,28.6,36
+2026-11-17,Fast Moving Consumer Goods | Beverages,Fast Moving Consumer Goods,Beverages,9,44.4,26.8,37
+2026-11-17,Financial Services | Insurance,Financial Services,Insurance,13,46.2,25.9,38
+2026-11-17,Fast Moving Consumer Goods | Personal Products,Fast Moving Consumer Goods,Personal Products,9,33.3,25.0,39
+2026-11-17,Consumer Services | Retailing,Consumer Services,Retailing,26,34.6,21.8,40
+2026-11-17,Power | Power,Power,Power,22,36.4,20.9,41
+2026-11-17,Construction | Construction,Construction,Construction,29,31.0,19.5,42
+2026-11-17,Chemicals | Fertilizers & Agrochemicals,Chemicals,Fertilizers & Agrochemicals,17,17.6,9.5,43
+2026-11-17,Metals & Mining | Minerals & Mining,Metals & Mining,Minerals & Mining,6,16.7,7.3,44

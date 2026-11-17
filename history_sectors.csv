@@ -1,23 +1,4 @@
 Date,Sector,Stocks,% Within 20% of High,RS 1Y,Rank
-2026-11-09,"Media, Entertainment & Publication",8,62.5,98.9,1
-2026-11-09,Healthcare,97,67.0,88.4,2
-2026-11-09,Services,38,57.9,85.2,3
-2026-11-09,Textiles,21,61.9,77.9,4
-2026-11-09,"Oil, Gas & Consumable Fuels",28,42.9,72.6,5
-2026-11-09,Telecommunication,17,41.2,70.5,6
-2026-11-09,Automobile and Auto Components,65,55.4,69.5,7
-2026-11-09,Capital Goods,191,35.6,62.1,8
-2026-11-09,Financial Services,140,59.3,55.8,9
-2026-11-09,Fast Moving Consumer Goods,64,35.9,47.4,10
-2026-11-09,Realty,24,33.3,45.3,11
-2026-11-09,Consumer Durables,58,39.7,43.2,12
-2026-11-09,Consumer Services,47,38.3,40.0,13
-2026-11-09,Information Technology,56,23.2,33.7,14
-2026-11-09,Chemicals,70,28.6,31.6,15
-2026-11-09,Power,23,39.1,27.4,16
-2026-11-09,Metals & Mining,27,37.0,23.2,17
-2026-11-09,Construction Materials,13,46.2,20.0,18
-2026-11-09,Construction,29,24.1,7.4,19
 2026-11-11,"Media, Entertainment & Publication",8,62.5,99.0,1
 2026-11-11,Healthcare,97,70.1,91.0,2
 2026-11-11,Textiles,21,61.9,86.0,3
@@ -77,13 +58,13 @@ Date,Sector,Stocks,% Within 20% of High,RS 1Y,Rank
 2026-11-13,Power,22,36.4,23.2,17
 2026-11-13,Construction,29,27.6,20.0,18
 2026-11-13,Construction Materials,13,53.8,14.7,19
-2026-11-16,"Media, Entertainment & Publication",8,62.5,100.0,1
-2026-11-16,Textiles,21,57.1,92.6,2
+2026-11-16,"Media, Entertainment & Publication",8,62.5,98.9,1
+2026-11-16,Textiles,22,54.5,92.6,2
 2026-11-16,Healthcare,99,66.7,87.4,3
 2026-11-16,Services,38,60.5,81.0,4
 2026-11-16,"Oil, Gas & Consumable Fuels",30,50.0,73.7,5
 2026-11-16,Automobile and Auto Components,68,66.2,68.4,6
-2026-11-16,Capital Goods,189,39.7,61.0,7
+2026-11-16,Capital Goods,189,39.7,62.1,7
 2026-11-16,Financial Services,138,58.0,60.0,8
 2026-11-16,Telecommunication,17,29.4,56.9,9
 2026-11-16,Consumer Services,50,44.0,46.3,10
@@ -96,3 +77,23 @@ Date,Sector,Stocks,% Within 20% of High,RS 1Y,Rank
 2026-11-16,Power,22,36.4,21.1,17
 2026-11-16,Metals & Mining,27,33.3,17.9,18
 2026-11-16,Construction,29,24.1,15.8,19
+2026-11-17,"Media, Entertainment & Publication",8,62.5,99.0,1
+2026-11-17,Textiles,23,56.5,95.0,2
+2026-11-17,Healthcare,100,63.0,86.0,3
+2026-11-17,Services,39,59.0,85.0,4
+2026-11-17,Automobile and Auto Components,68,66.2,72.0,5
+2026-11-17,"Oil, Gas & Consumable Fuels",30,46.7,70.0,6
+2026-11-17,Capital Goods,187,39.0,64.0,7
+2026-11-17,Financial Services,139,58.3,61.0,8
+2026-11-17,Telecommunication,17,29.4,57.0,9
+2026-11-17,Realty,24,41.7,49.0,10
+2026-11-17,Consumer Services,49,42.9,46.0,11
+2026-11-17,Fast Moving Consumer Goods,65,43.1,40.0,12
+2026-11-17,Consumer Durables,60,36.7,38.0,13
+2026-11-17,Diversified,4,50.0,33.0,14
+2026-11-17,Information Technology,57,22.8,33.0,14
+2026-11-17,Construction Materials,14,57.1,33.0,14
+2026-11-17,Chemicals,67,34.3,31.0,17
+2026-11-17,Power,22,36.4,22.0,18
+2026-11-17,Metals & Mining,26,34.6,19.0,19
+2026-11-17,Construction,29,31.0,17.0,20
