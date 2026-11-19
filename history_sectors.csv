@@ -1,24 +1,4 @@
 Date,Sector,Stocks,% Within 20% of High,RS 1Y,Rank
-2026-11-12,"Media, Entertainment & Publication",8,62.5,100.0,1
-2026-11-12,Healthcare,95,70.5,88.0,2
-2026-11-12,Services,39,64.1,86.0,3
-2026-11-12,Textiles,21,57.1,83.0,4
-2026-11-12,Automobile and Auto Components,66,60.6,70.0,5
-2026-11-12,Capital Goods,191,44.0,69.0,6
-2026-11-12,"Oil, Gas & Consumable Fuels",30,53.3,67.0,7
-2026-11-12,Telecommunication,17,41.2,64.0,8
-2026-11-12,Financial Services,140,62.1,61.0,9
-2026-11-12,Realty,24,41.7,53.0,10
-2026-11-12,Consumer Durables,60,45.0,46.0,11
-2026-11-12,Fast Moving Consumer Goods,68,38.2,44.0,12
-2026-11-12,Consumer Services,49,44.9,43.0,13
-2026-11-12,Chemicals,71,36.6,35.0,14
-2026-11-12,Information Technology,56,25.0,33.0,15
-2026-11-12,Construction Materials,13,53.8,27.0,16
-2026-11-12,Metals & Mining,28,39.3,24.0,17
-2026-11-12,Power,23,34.8,22.0,18
-2026-11-12,Diversified,4,25.0,19.0,19
-2026-11-12,Construction,30,30.0,16.0,20
 2026-11-13,"Media, Entertainment & Publication",8,62.5,100.0,1
 2026-11-13,Healthcare,94,72.3,87.4,2
 2026-11-13,Services,38,65.8,86.3,3
@@ -97,3 +77,23 @@ Date,Sector,Stocks,% Within 20% of High,RS 1Y,Rank
 2026-11-18,Power,22,36.4,22.0,18
 2026-11-18,Construction,29,24.1,19.0,19
 2026-11-18,Metals & Mining,26,26.9,19.0,19
+2026-11-19,"Media, Entertainment & Publication",8,62.5,98.0,1
+2026-11-19,Textiles,23,56.5,96.0,2
+2026-11-19,Services,39,59.0,84.0,3
+2026-11-19,Healthcare,102,65.7,84.0,3
+2026-11-19,Automobile and Auto Components,70,67.1,77.0,5
+2026-11-19,"Oil, Gas & Consumable Fuels",30,46.7,74.0,6
+2026-11-19,Financial Services,138,59.4,58.0,7
+2026-11-19,Capital Goods,186,38.2,54.0,8
+2026-11-19,Realty,24,41.7,53.0,9
+2026-11-19,Telecommunication,17,29.4,52.0,10
+2026-11-19,Construction Materials,14,57.1,47.0,11
+2026-11-19,Consumer Durables,56,37.5,46.0,12
+2026-11-19,Consumer Services,49,40.8,39.0,13
+2026-11-19,Fast Moving Consumer Goods,65,41.5,39.0,13
+2026-11-19,Information Technology,55,23.6,35.0,15
+2026-11-19,Diversified,4,50.0,28.0,16
+2026-11-19,Chemicals,66,33.3,27.0,17
+2026-11-19,Power,22,40.9,23.0,18
+2026-11-19,Metals & Mining,26,30.8,19.0,19
+2026-11-19,Construction,31,25.8,17.0,20
