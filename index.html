@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NSE Market Strength</title>
+<style>
+  body { font-family: Arial, Helvetica, sans-serif; margin: 0; background: #fdfcf7; color: #1d2b24; }
+  header { padding: 16px 20px 0; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin: 0 0 6px; }
+  h3.sec { font-size: 13px; color: #5a6058; text-transform: uppercase; letter-spacing: .05em; margin: 18px 0 6px; }
+  .sub { color: #6b7068; font-size: 13px; }
+  nav { display: flex; gap: 8px; padding: 12px 20px; flex-wrap: wrap; }
+  nav button { padding: 8px 14px; border: 1px solid #1f6b4f; border-radius: 6px; background: #fff; color: #1f6b4f; font-size: 14px; cursor: pointer; }
+  nav button.active { background: #1f6b4f; color: #fff; }
+  .controls { display: flex; gap: 8px; flex-wrap: wrap; padding: 0 0 12px; }
+  select, input { padding: 7px 10px; border: 1px solid #cfd3c8; border-radius: 6px; background: #fff; font-size: 14px; }
+  main { padding: 0 20px 40px; }
+  .panel { display: none; }
+  .panel.show { display: block; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 16px; }
+  .box { background: #fff; border: 1px solid #dfe3d8; border-radius: 10px; padding: 12px; }
+  .box h3 { margin: 0 0 8px; font-size: 13px; color: #5a6058; text-transform: uppercase; letter-spacing: .05em; }
+  .row { display: grid; grid-template-columns: 1fr 40px 100px 66px 52px; gap: 8px; align-items: center; padding: 6px 4px; font-size: 14px; border-bottom: 1px solid #f0f1ec; }
+  .group-row { cursor: pointer; border-radius: 4px; }
+  .group-row:hover { background: #f6f8f2; }
+  .group-row.selected { outline: 2px solid #1f6b4f; background: #eef5ef; }
+  .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .cnt { color: #8a8f85; text-align: right; font-size: 12px; }
+  .near { color: #5a6058; text-align: right; font-size: 12px; }
+  .bar { position: relative; height: 10px; background: #efefe8; }
+  .bar i { position: absolute; top: 0; height: 100%; }
+  .val { text-align: right; font-weight: bold; }
+  .pos { color: #1f7a4f; }
+  .neg { color: #b03a2e; }
+  .sep { text-align: center; color: #8a8f85; font-size: 12px; padding: 6px 0; }
+  .cards { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+  .card { background: #fff; border: 1px solid #dfe3d8; border-radius: 8px; padding: 8px 12px; font-size: 13px; cursor: pointer; }
+  .card b { display: block; font-size: 18px; }
+  .wrap { overflow: auto; max-height: 70vh; border: 1px solid #dfe3d8; border-radius: 8px; background: #fff; }
+  table { border-collapse: collapse; width: 100%; font-size: 13px; }
+  th, td { border-bottom: 1px solid #eceee6; padding: 6px 8px; text-align: right; white-space: nowrap; }
+  th { background: #1f4d3c; color: #fff; cursor: pointer; position: sticky; top: 0; }
+  .l { text-align: left; }
+  .yes { color: #1f7a4f; font-weight: bold; }
+  .note { font-size: 12px; color: #6b7068; margin-top: 12px; }
+  .drill { display: none; background: #fff; border: 1px solid #dfe3d8; border-radius: 10px; padding: 16px; margin-top: 16px; }
+  .chip { display: inline-block; padding: 4px 8px; border-radius: 6px; background: #f3f5ef; margin: 2px 6px 2px 0; font-size: 13px; }
+  .chip b { margin-left: 2px; }
+  .trend { font-size: 14px; margin-top: 8px; }
+  a { color: #1f6b4f; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>NSE Market Strength</h1>
+  <div class="sub" id="status">Loading data...</div>
+</header>
+
+<nav>
+  <button id="tabFlow" class="active" onclick="showTab('flow')">Money flow: sectors and industries</button>
+  <button id="tabStocks" onclick="showTab('stocks')">Stocks and screens</button>
+</nav>
+
+<main>
+
+<!-- ===== MONEY FLOW ===== -->
+<section id="flow" class="panel show">
+  <div class="controls">
+    <select id="level" onchange="renderFlow()">
+      <option value="Sector">Sectors</option>
+      <option value="Industry">Industries</option>
+    </select>
+    <select id="show" onchange="renderFlow()">
+      <option value="10">Top 10 and weakest 10</option>
+      <option value="5">Top 5 and weakest 5</option>
+      <option value="all">All groups</option>
+    </select>
+    <input id="flowSearch" placeholder="Search group name" oninput="renderFlow()">
+  </div>
+  <div id="flowOut"></div>
+  <div class="drill" id="drill"></div>
+  <div class="note">Each bar shows the median return of eligible stocks in the group. The count is the number of stocks. "Near high" is the share of those stocks within 20% of their 52-week high. Click any group to see its stocks and its 5-day history.</div>
+</section>
+
+<!-- ===== STOCKS AND SCREENS ===== -->
+<section id="stocks" class="panel">
+  <div class="cards" id="cards"></div>
+  <div class="controls">
+    <select id="filter" onchange="renderStocks()"></select>
+    <input id="stockSearch" placeholder="Search symbol, company, sector" oninput="renderStocks()">
+  </div>
+  <div class="wrap"><table><thead id="stocksHead"></thead><tbody id="stocksBody"></tbody></table></div>
+  <div class="note" id="stocksOut"></div>
+  <div class="note">Click any column heading to sort. Click a card above to apply that screen.</div>
+</section>
+
+</main>
+
+<script>
+const FLOW_PERIODS = [
+  ["Median 1D %", "1 day"],
+  ["Median 1W %", "1 week"],
+  ["Median 1M %", "1 month"],
+  ["Median 3M %", "3 months"]
+];
+
+const HIST_METRICS = [
+  ["Median 1D %", "Median 1-day return"],
+  ["Median 1W %", "Median 1-week return"],
+  ["Median 1M %", "Median 1-month return"],
+  ["Median 3M %", "Median 3-month return"],
+  ["% Within 20% of High", "% within 20% of 52W high"]
+];
+
+const STOCK_COLS = [
+  ["Symbol", "Symbol", "l"],
+  ["Company Name", "Company", "l"],
+  ["Sector", "Sector", "l"],
+  ["Industry", "Industry", "l"],
+  ["Price", "Price", "n"],
+  ["1D %", "1D %", "n"],
+  ["1W %", "1W %", "n"],
+  ["1M %", "1M %", "n"],
+  ["3M %", "3M %", "n"],
+  ["% From 52W High", "% from 52W high", "n"],
+  ["Avg Value (Cr, 20D)", "Avg value (Cr)", "n"],
+  ["RS 3M", "RS 3M", "n"],
+  ["RS 1Y", "RS 1Y", "n"],
+  ["Market Cap (Cr)", "Market cap (Cr)", "n"],
+  ["Within 20% of High", "Within 20%", "t"],
+  ["Stage 2 Screen", "Stage 2", "t"],
+  ["20% Month Screen", "20% in 1 month", "t"],
+  ["Swing Setup", "Swing setup", "t"]
+];
+
+const MEMBER_COLS = [
+  ["Symbol", "Symbol", "l"],
+  ["Company Name", "Company", "l"],
+  ["Price", "Price", "n"],
+  ["1D %", "1D %", "n"],
+  ["1W %", "1W %", "n"],
+  ["1M %", "1M %", "n"],
+  ["3M %", "3M %", "n"],
+  ["% From 52W High", "% from high", "n"],
+  ["Within 20% of High", "Within 20%", "t"],
+  ["RS 3M", "RS 3M", "n"],
+  ["RS 1Y", "RS 1Y", "n"],
+  ["Avg Value (Cr, 20D)", "Avg value (Cr)", "n"]
+];
+
+const FILTERS = {
+  eligible: ["All eligible", r => r["Passes Filters"] === "Yes"],
+  stage2: ["Stage 2 screen", r => r["Stage 2 Screen"] === "Yes"],
+  month20: ["20% in 1 month", r => r["20% Month Screen"] === "Yes"],
+  swing: ["Swing setup", r => r["Swing Setup"] === "Yes"],
+  top: ["Top 20% RS (1Y)", r => r["Top 20% RS"] === "Yes"],
+  near: ["Within 20% of 52W high", r => r["Within 20% of High"] === "Yes"]
+};
+
+let groupRows = [];
+let stockRows = [];
+let latestDate = "";
+let selectedLevel = null;
+let selectedKey = null;
+let histMetric = "Median 1M %";
+let sortKey = "RS 1Y";
+let sortDir = -1;
+
+function num(v) {
+  if (v === undefined || v === null || v === "") return null;
+  const n = Number(v);
+  return isNaN(n) ? null : n;
+}
+
+function esc(s) {
+  return String(s == null ? "" : s).replace(/[&<>"']/g, ch =>
+    ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[ch]));
+}
+
+function pct(v) {
+  const n = num(v);
+  if (n === null) return "–";
+  return (n > 0 ? "+" : "") + n.toFixed(1) + "%";
+}
+
+function nearText(v) {
+  const n = num(v);
+  return n === null ? "–" : n.toFixed(0) + "%";
+}
+
+function colorClass(v) {
+  const n = num(v);
+  if (n === null) return "";
+  return n >= 0 ? "pos" : "neg";
+}
+
+function parseCSV(text) {
+  const rows = [];
+  let row = [], field = "", inQuotes = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (inQuotes) {
+      if (c === '"') {
+        if (text[i + 1] === '"') { field += '"'; i++; }
+        else inQuotes = false;
+      } else {
+        field += c;
+      }
+    } else if (c === '"') {
+      inQuotes = true;
+    } else if (c === ",") {
+      row.push(field); field = "";
+    } else if (c === "\n") {
+      row.push(field); rows.push(row); row = []; field = "";
+    } else if (c !== "\r") {
+      field += c;
+    }
+  }
+  if (field !== "" || row.length) { row.push(field); rows.push(row); }
+  const header = rows.shift();
+  return rows
+    .filter(r => r.length === header.length)
+    .map(r => Object.fromEntries(header.map((h, i) => [h, r[i]])));
+}
+
+async function loadCSV(file) {
+  const res = await fetch(file + "?t=" + Date.now());
+  if (!res.ok) throw new Error(file + " not found yet. The nightly run may not have finished.");
+  return parseCSV(await res.text());
+}
+
+function showTab(name) {
+  document.querySelectorAll(".panel").forEach(p => p.classList.toggle("show", p.id === name));
+  document.getElementById("tabFlow").classList.toggle("active", name === "flow");
+  document.getElementById("tabStocks").classList.toggle("active", name === "stocks");
+}
+
+// ----- Money flow -----
+function flowRow(r, col, maxAbs) {
+  const v = num(r[col]);
+  const width = Math.min(100, Math.abs(v) / maxAbs * 100);
+  const color = v >= 0 ? "#1f7a4f" : "#b03a2e";
+  const side = v >= 0 ? "left:0" : "right:0";
+  const selected = (r.Key === selectedKey && r.Level === selectedLevel) ? " selected" : "";
+  return `<div class="row group-row${selected}" data-key="${esc(r.Key)}" data-level="${esc(r.Level)}" onclick="pickGroup(this)">
+    <span class="name" title="${esc(r.Group)}">${esc(r.Group)}</span>
+    <span class="cnt">${esc(r.Stocks)}</span>
+    <div class="bar"><i style="width:${width}%;background:${color};${side}"></i></div>
+    <span class="val ${v >= 0 ? "pos" : "neg"}">${pct(v)}</span>
+    <span class="near">${nearText(r["% Within 20% of High"])}</span>
+  </div>`;
+}
+
+function renderFlow() {
+  const level = document.getElementById("level").value;
+  const limit = document.getElementById("show").value;
+  const q = document.getElementById("flowSearch").value.trim().toLowerCase();
+
+  if (selectedLevel && selectedLevel !== level) {
+    selectedLevel = null;
+    selectedKey = null;
+  }
+
+  const rows = groupRows.filter(r =>
+    r.Date === latestDate && r.Level === level &&
+    (!q || String(r.Group).toLowerCase().includes(q)));
+
+  let html = '<div class="grid">';
+  for (const [col, label] of FLOW_PERIODS) {
+    const valid = rows.filter(r => num(r[col]) !== null);
+    const sorted = [...valid].sort((a, b) => num(b[col]) - num(a[col]));
+    const maxAbs = Math.max(1, ...sorted.map(r => Math.abs(num(r[col]))));
+
+    html += `<div class="box"><h3>${label}</h3>`;
+    if (limit === "all") {
+      html += sorted.map(r => flowRow(r, col, maxAbs)).join("");
+    } else {
+      const n = Number(limit);
+      const top = sorted.slice(0, n);
+      const bottom = sorted.slice(Math.max(n, sorted.length - n)).reverse();
+      html += top.map(r => flowRow(r, col, maxAbs)).join("");
+      if (bottom.length) {
+        html += `<div class="sep">— weakest —</div>`;
+        html += bottom.map(r => flowRow(r, col, maxAbs)).join("");
+      }
+    }
+    html += `</div>`;
+  }
+  html += "</div>";
+  document.getElementById("flowOut").innerHTML = html;
+  renderDrill();
+}
+
+function pickGroup(el) {
+  selectedLevel = el.dataset.level;
+  selectedKey = el.dataset.key;
+  renderFlow();
+  document.getElementById("drill").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function clearDrill() {
+  selectedKey = null;
+  selectedLevel = null;
+  renderFlow();
+}
+
+function setMetric(value) {
+  histMetric = value;
+  renderDrill();
+}
+
+function cellHtml(row, key, type) {
+  const v = row[key];
+  if (type === "n") {
+    const n = num(v);
+    if (n === null) return "<td>–</td>";
+    let shown;
+    if (["Price", "Avg Value (Cr, 20D)", "Market Cap (Cr)"].includes(key)) {
+      shown = n.toLocaleString("en-IN", { maximumFractionDigits: 1 });
+    } else {
+      shown = n.toFixed(1);
+    }
+    const cls = key.includes("%") ? (n < 0 ? "neg" : (n > 0 ? "pos" : "")) : "";
+    return `<td class="${cls}">${shown}</td>`;
+  }
+  if (type === "t") return `<td class="${v === "Yes" ? "yes" : ""}">${esc(v)}</td>`;
+  return `<td class="l">${esc(v)}</td>`;
+}
+
+function barChart(series, metric) {
+  const vals = series.map(s => s.v).filter(v => v !== null);
+  if (!vals.length) return '<p class="note">No history for this group yet.</p>';
+
+  const breadth = metric.startsWith("% Within");
+  const W = 560, H = 220, top = 24, bottom = 180, left = 40;
+  let lo, hi;
+  if (breadth) {
+    lo = 0; hi = 100;
+  } else {
+    const m = Math.max(1, ...vals.map(Math.abs)) * 1.15;
+    lo = -m; hi = m;
+  }
+  const y = v => bottom - (v - lo) / (hi - lo) * (bottom - top);
+  const zeroY = breadth ? bottom : y(0);
+  const slot = (W - left - 10) / series.length;
+  const bw = Math.min(70, slot * 0.55);
+
+  let svg = `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img">`;
+  svg += `<line x1="${left}" x2="${W - 10}" y1="${zeroY}" y2="${zeroY}" stroke="#aaa"/>`;
+  series.forEach((s, i) => {
+    const cx = left + slot * i + slot / 2;
+    const x = cx - bw / 2;
+    if (s.v === null) {
+      svg += `<text x="${cx}" y="${zeroY - 8}" font-size="12" text-anchor="middle" fill="#888">–</text>`;
+    } else {
+      const yv = y(s.v);
+      const h = Math.max(1, Math.abs(yv - zeroY));
+      const yTop = Math.min(yv, zeroY);
+      const color = breadth ? "#1f4d3c" : (s.v >= 0 ? "#1f7a4f" : "#b03a2e");
+      const label = breadth ? s.v.toFixed(0) + "%" : (s.v >= 0 ? "+" : "") + s.v.toFixed(1) + "%";
+      const ly = (!breadth && s.v < 0) ? yTop + h + 14 : yTop - 6;
+      svg += `<rect x="${x}" y="${yTop}" width="${bw}" height="${h}" fill="${color}"/>`;
+      svg += `<text x="${cx}" y="${ly}" font-size="12" text-anchor="middle">${label}</text>`;
+    }
+    svg += `<text x="${cx}" y="${H - 6}" font-size="11" text-anchor="middle" fill="#666">${s.date.slice(5)}</text>`;
+  });
+  svg += "</svg>";
+  return svg;
+}
+
+function renderDrill() {
+  const panel = document.getElementById("drill");
+  if (!selectedKey || !selectedLevel) {
+    panel.style.display = "none";
+    panel.innerHTML = "";
+    return;
+  }
+
+  const groupRow = groupRows.find(r =>
+    r.Level === selectedLevel && r.Key === selectedKey && r.Date === latestDate);
+  if (!groupRow) {
+    panel.style.display = "none";
+    panel.innerHTML = "";
+    return;
+  }
+
+  const members = stockRows
+    .filter(s => s["Passes Filters"] === "Yes" &&
+      (selectedLevel === "Sector"
+        ? s.Sector === selectedKey
+        : (s.Sector + " | " + s.Industry) === selectedKey))
+    .sort((a, b) => {
+      const x = num(a["1M %"]), y = num(b["1M %"]);
+      return (y === null ? -1e9 : y) - (x === null ? -1e9 : x);
+    });
+
+  const history = groupRows
+    .filter(r => r.Level === selectedLevel && r.Key === selectedKey)
+    .sort((a, b) => a.Date.localeCompare(b.Date));
+  const series = history.map(r => ({ date: r.Date, v: num(r[histMetric]) }));
+  const valid = series.filter(s => s.v !== null);
+
+  const metricLabel = (HIST_METRICS.find(m => m[0] === histMetric) || [])[1] || histMetric;
+  const breadth = histMetric.startsWith("% Within");
+  let trend = "Not enough history yet.";
+  if (valid.length >= 2) {
+    const first = valid[0], last = valid[valid.length - 1];
+    const diff = last.v - first.v;
+    const word = diff > 0.05 ? "rising" : (diff < -0.05 ? "falling" : "flat");
+    const fmt = v => breadth ? v.toFixed(0) + "%" : pct(v);
+    trend = `${metricLabel} is ${word} over the period: ${fmt(first.v)} on ${first.date.slice(5)} and ${fmt(last.v)} on ${last.date.slice(5)}.`;
+  }
+
+  const chips = `
+    <span class="chip">Stocks: <b>${esc(groupRow.Stocks)}</b></span>
+    <span class="chip">Near 52W high: <b>${nearText(groupRow["% Within 20% of High"])}</b></span>
+    ${FLOW_PERIODS.map(([col, label]) =>
+      `<span class="chip">${label}: <b class="${colorClass(groupRow[col])}">${pct(groupRow[col])}</b></span>`
+    ).join("")}`;
+
+  const metricSelect = `<select onchange="setMetric(this.value)">${HIST_METRICS.map(([k, l]) =>
+    `<option value="${esc(k)}" ${k === histMetric ? "selected" : ""}>${esc(l)}</option>`).join("")}</select>`;
+
+  const head = MEMBER_COLS.map(([k, l, t]) => `<th class="${t === "l" ? "l" : ""}">${l}</th>`).join("");
+  const body = members.map(s => "<tr>" + MEMBER_COLS.map(([k, l, t]) => cellHtml(s, k, t)).join("") + "</tr>").join("");
+
+  const title = selectedLevel === "Sector" ? "Sector" : `Industry in ${esc(groupRow.Sector)}`;
+
+  panel.style.display = "block";
+  panel.innerHTML = `
+    <h2>${esc(groupRow.Group)}</h2>
+    <div class="sub">${title}</div>
+    <div style="margin:10px 0">${chips}</div>
+
+    <h3 class="sec">5-day history</h3>
+    <div class="controls">${metricSelect}</div>
+    <div>${barChart(series, histMetric)}</div>
+    <div class="trend">${trend}</div>
+
+    <h3 class="sec">Stocks in this group (eligible, sorted by 1 month return)</h3>
+    <div class="wrap"><table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>
+    <div class="note">Showing ${members.length} stocks. Use the Stocks and screens tab to sort the full list or apply a screen.</div>
+    <div class="note"><a href="#" onclick="clearDrill();return false;">Close this panel</a></div>`;
+}
+
+// ----- Stocks and screens -----
+function renderCards() {
+  document.getElementById("cards").innerHTML = Object.entries(FILTERS).map(([k, [label, f]]) =>
+    `<div class="card" onclick="setFilter('${k}')">${label}<b>${stockRows.filter(f).length}</b></div>`
+  ).join("");
+}
+
+function setFilter(k) {
+  document.getElementById("filter").value = k;
+  renderStocks();
+}
+
+function sortByIndex(i) {
+  const key = STOCK_COLS[i][0];
+  if (sortKey === key) {
+    sortDir = -sortDir;
+  } else {
+    sortKey = key;
+    sortDir = STOCK_COLS[i][2] === "n" ? -1 : 1;
+  }
+  renderStocks();
+}
+
+function renderStocks() {
+  const f = FILTERS[document.getElementById("filter").value][1];
+  const q = document.getElementById("stockSearch").value.trim().toLowerCase();
+  const col = STOCK_COLS.find(c => c[0] === sortKey);
+  const type = col ? col[2] : "n";
+
+  const rows = stockRows.filter(r => f(r) &&
+    (!q || (r.Symbol + " " + r["Company Name"] + " " + r.Sector + " " + r.Industry)
+      .toLowerCase().includes(q)));
+
+  rows.sort((a, b) => {
+    if (type === "n") {
+      const x = num(a[sortKey]), y = num(b[sortKey]);
+      if (x === null && y === null) return 0;
+      if (x === null) return 1;
+      if (y === null) return -1;
+      return (x - y) * sortDir;
+    }
+    return String(a[sortKey] || "").localeCompare(String(b[sortKey] || "")) * sortDir;
+  });
+
+  const head = "<tr>" + STOCK_COLS.map(([key, label, t], i) => {
+    const arrow = sortKey === key ? (sortDir > 0 ? " ▲" : " ▼") : "";
+    return `<th class="${t === "n" ? "" : "l"}" onclick="sortByIndex(${i})">${label}${arrow}</th>`;
+  }).join("") + "</tr>";
+
+  const body = rows.map(r =>
+    "<tr>" + STOCK_COLS.map(([key, label, t]) => cellHtml(r, key, t)).join("") + "</tr>"
+  ).join("");
+
+  document.getElementById("stocksHead").innerHTML = head;
+  document.getElementById("stocksBody").innerHTML = body;
+  document.getElementById("stocksOut").textContent = `Showing ${rows.length} stocks.`;
+}
+
+function showMissing(id, message) {
+  document.getElementById(id).innerHTML = `<p>${esc(message)}</p>`;
+}
+
+// ----- Start -----
+async function init() {
+  document.getElementById("filter").innerHTML = Object.entries(FILTERS)
+    .map(([k, [label]]) => `<option value="${k}">${label}</option>`).join("");
+
+  try {
+    groupRows = await loadCSV("group_performance.csv");
+  } catch (e) {
+    showMissing("flowOut", e.message);
+  }
+  try {
+    stockRows = await loadCSV("stocks_rs.csv");
+  } catch (e) {
+    document.getElementById("stocksOut").textContent = e.message;
+  }
+
+  latestDate = groupRows.reduce((m, r) => (r.Date > m ? r.Date : m), "");
+  const dated = stockRows.find(r => r["Data as of"]);
+  const asOf = latestDate || (dated ? dated["Data as of"] : "");
+  document.getElementById("status").textContent = asOf ? "Data as of " + asOf : "No data loaded yet";
+
+  renderFlow();
+  renderCards();
+  renderStocks();
+}
+
+init();
+</script>
+</body>
+</html>
