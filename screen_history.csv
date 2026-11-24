@@ -1127,7 +1127,7 @@ Date,Symbol,Company Name,Sector,Industry,Price,% From 52W High,Within 20% of Hig
 2026-11-09,MANORAMA,Manorama Indust.,Fast Moving Consumer Goods,Food Products,1962.2,-8.68,Yes,88.4,83.4,Yes,Yes,Yes,Yes,0.56,Yes,-1.82,22.39,12386.0,1664.67,Yes,No
 2026-11-09,CUPID,Cupid,Fast Moving Consumer Goods,Personal Products,342.85,-7.07,Yes,94.4,97.6,Yes,Yes,Yes,Yes,0.39,Yes,-3.87,448.42,46102.0,218.99,Yes,No
 2026-11-09,HONASA,Honasa Consumer,Fast Moving Consumer Goods,Personal Products,484.05,-4.46,Yes,67.3,80.4,Yes,Yes,Yes,Yes,1.36,No,3.54,51.32,15794.0,427.1,Yes,No
-2026-11-09,ICICIBANK,ICICI Bank Ltd,Financial Services,Banks,1589.0,-0.19,Yes,81.7,74.4,Yes,Yes,Yes,Yes,2.15,Yes,17.79,2340.23,1141631.0,1354.84,No,No
+2026-11-09,ICICIBANK,ICICI Bank Ltd,Financial Services,Banks,1589.0,-0.19,Yes,81.7,74.4,Yes,Yes,Yes,Yes,2.15,Yes,17.79,2340.23,1141637.0,1354.84,No,No
 2026-11-09,KOTAKBANK,Kotak Mahindra Bank Ltd,Financial Services,Banks,479.5,-0.77,Yes,90.5,77.0,Yes,Yes,Yes,Yes,1.06,Yes,10.23,1024.27,477023.0,401.11,No,No
 2026-11-09,SOUTHBANK,South Indian Bank Ltd,Financial Services,Banks,58.68,-0.71,Yes,91.8,89.1,Yes,Yes,Yes,Yes,0.77,Yes,26.49,123.34,15376.0,45.3,Yes,No
 2026-11-09,KTKBANK,Karnataka Bank Ltd,Financial Services,Banks,331.9,-3.91,Yes,77.5,84.4,Yes,Yes,Yes,Yes,0.82,No,3.46,62.63,12559.0,286.45,Yes,No
@@ -1750,7 +1750,7 @@ Date,Symbol,Company Name,Sector,Industry,Price,% From 52W High,Within 20% of Hig
 2026-11-16,TASTYBITE,Tasty Bite Eat.,Fast Moving Consumer Goods,Food Products,11244.0,-3.84,No,,,Yes,Yes,Yes,Yes,2.93,No,20.96,6.65,2885.0,8848.01,No,Yes
 2026-11-16,CUPID,Cupid,Fast Moving Consumer Goods,Personal Products,361.9,-7.91,Yes,90.1,96.0,Yes,Yes,Yes,Yes,1.09,Yes,2.06,536.34,48663.0,226.49,Yes,No
 2026-11-16,HONASA,Honasa Consumer,Fast Moving Consumer Goods,Personal Products,501.25,-3.04,Yes,72.2,83.0,Yes,Yes,Yes,Yes,1.44,No,9.79,62.45,16355.0,432.22,Yes,No
-2026-11-16,ICICIBANK,ICICI Bank Ltd,Financial Services,Banks,1585.0,-1.92,Yes,82.1,72.7,Yes,Yes,Yes,Yes,1.46,Yes,18.41,2595.48,1138757.0,1363.97,No,No
+2026-11-16,ICICIBANK,ICICI Bank Ltd,Financial Services,Banks,1585.0,-1.92,Yes,82.1,72.7,Yes,Yes,Yes,Yes,1.46,Yes,18.41,2595.48,1138763.0,1363.97,No,No
 2026-11-16,KOTAKBANK,Kotak Mahindra Bank Ltd,Financial Services,Banks,494.2,-0.74,Yes,91.5,77.2,Yes,Yes,Yes,Yes,0.93,Yes,12.82,995.03,491647.0,404.45,No,No
 2026-11-16,KARURVYSYA,Karur Vysya Bank Ltd,Financial Services,Banks,390.25,-1.38,Yes,85.6,80.9,Yes,Yes,Yes,Yes,0.92,Yes,14.36,170.96,37724.0,318.32,Yes,No
 2026-11-16,CUB,City Union Bank Ltd,Financial Services,Banks,233.2,-6.29,Yes,80.8,71.5,Yes,Yes,Yes,Yes,1.11,Yes,2.29,77.55,23105.0,211.51,No,No
@@ -1904,7 +1904,7 @@ Date,Symbol,Company Name,Sector,Industry,Price,% From 52W High,Within 20% of Hig
 2026-11-17,TASTYBITE,Tasty Bite Eat.,Fast Moving Consumer Goods,Food Products,11299.5,-3.83,Yes,82.5,81.9,Yes,Yes,Yes,Yes,3.32,Yes,20.93,7.47,2899.0,8877.0,Yes,Yes
 2026-11-17,CUPID,Cupid,Fast Moving Consumer Goods,Personal Products,365.85,-6.91,Yes,90.7,96.2,Yes,Yes,Yes,Yes,1.14,Yes,3.79,526.38,49194.0,228.31,Yes,No
 2026-11-17,HONASA,Honasa Consumer,Fast Moving Consumer Goods,Personal Products,517.8,-1.18,Yes,67.9,81.7,Yes,Yes,Yes,Yes,1.01,No,15.61,68.37,16895.0,433.47,Yes,No
-2026-11-17,ICICIBANK,ICICI Bank Ltd,Financial Services,Banks,1598.7,-1.07,Yes,82.3,73.6,Yes,Yes,Yes,Yes,1.26,Yes,15.06,2613.41,1148600.0,1366.16,No,No
+2026-11-17,ICICIBANK,ICICI Bank Ltd,Financial Services,Banks,1598.7,-1.07,Yes,82.3,73.6,Yes,Yes,Yes,Yes,1.26,Yes,15.06,2613.41,1148606.0,1366.16,No,No
 2026-11-17,KOTAKBANK,Kotak Mahindra Bank Ltd,Financial Services,Banks,497.25,-0.53,Yes,92.8,77.7,Yes,Yes,Yes,Yes,0.88,Yes,11.01,977.59,494682.0,405.29,No,No
 2026-11-17,KARURVYSYA,Karur Vysya Bank Ltd,Financial Services,Banks,393.5,-1.09,Yes,87.4,81.5,Yes,Yes,Yes,Yes,0.99,Yes,13.84,144.91,38038.0,319.1,Yes,No
 2026-11-17,CUB,City Union Bank Ltd,Financial Services,Banks,232.4,-6.61,Yes,80.6,71.4,Yes,Yes,Yes,Yes,1.16,Yes,3.74,79.51,23026.0,211.81,No,No
@@ -2053,7 +2053,7 @@ Date,Symbol,Company Name,Sector,Industry,Price,% From 52W High,Within 20% of Hig
 2026-11-18,TASTYBITE,Tasty Bite Eat.,Fast Moving Consumer Goods,Food Products,11110.0,-5.45,Yes,81.7,80.7,Yes,Yes,Yes,Yes,3.46,Yes,19.09,7.67,2851.0,8903.26,Yes,No
 2026-11-18,CUPID,Cupid,Fast Moving Consumer Goods,Personal Products,363.2,-7.58,Yes,96.1,98.3,Yes,Yes,Yes,Yes,1.13,Yes,2.69,500.78,48838.0,230.11,Yes,No
 2026-11-18,HONASA,Honasa Consumer,Fast Moving Consumer Goods,Personal Products,524.5,-1.94,Yes,80.3,87.1,Yes,Yes,Yes,Yes,1.26,Yes,15.98,76.9,17113.0,434.68,Yes,No
-2026-11-18,ICICIBANK,ICICI Bank Ltd,Financial Services,Banks,1601.3,-0.91,Yes,84.1,74.5,Yes,Yes,Yes,Yes,0.98,Yes,14.62,2526.05,1150468.0,1368.09,No,No
+2026-11-18,ICICIBANK,ICICI Bank Ltd,Financial Services,Banks,1601.3,-0.91,Yes,84.1,74.5,Yes,Yes,Yes,Yes,0.98,Yes,14.62,2526.05,1150474.0,1368.09,No,No
 2026-11-18,KOTAKBANK,Kotak Mahindra Bank Ltd,Financial Services,Banks,494.85,-1.63,Yes,92.7,77.8,Yes,Yes,Yes,Yes,0.9,Yes,10.61,1011.59,492294.0,406.1,No,No
 2026-11-18,KARURVYSYA,Karur Vysya Bank Ltd,Financial Services,Banks,387.0,-2.73,Yes,86.3,81.0,Yes,Yes,Yes,Yes,0.92,Yes,8.81,125.52,37410.0,319.82,Yes,No
 2026-11-18,SOUTHBANK,South Indian Bank Ltd,Financial Services,Banks,61.02,-2.48,Yes,95.9,91.1,Yes,Yes,Yes,Yes,0.75,Yes,18.6,96.51,15989.0,46.26,Yes,No
@@ -2209,7 +2209,7 @@ Date,Symbol,Company Name,Sector,Industry,Price,% From 52W High,Within 20% of Hig
 2026-11-19,PARAGMILK,Parag Milk Foods,Fast Moving Consumer Goods,Food Products,343.49,-8.51,Yes,99.1,83.7,Yes,Yes,Yes,Yes,0.77,Yes,27.45,102.92,4294.0,244.21,Yes,No
 2026-11-19,CUPID,Cupid,Fast Moving Consumer Goods,Personal Products,365.95,-6.88,Yes,94.4,97.7,Yes,Yes,Yes,Yes,0.69,Yes,8.82,479.51,49208.0,231.93,Yes,No
 2026-11-19,HONASA,Honasa Consumer,Fast Moving Consumer Goods,Personal Products,529.65,-0.98,Yes,81.9,87.9,Yes,Yes,Yes,Yes,1.2,Yes,19.99,78.71,17281.0,435.93,Yes,No
-2026-11-19,ICICIBANK,ICICI Bank Ltd,Financial Services,Banks,1608.9,-0.44,Yes,84.0,75.2,Yes,Yes,Yes,Yes,0.89,Yes,16.5,2494.89,1155928.0,1369.89,No,No
+2026-11-19,ICICIBANK,ICICI Bank Ltd,Financial Services,Banks,1608.9,-0.44,Yes,84.0,75.2,Yes,Yes,Yes,Yes,0.89,Yes,16.5,2494.89,1155934.0,1369.89,No,No
 2026-11-19,KOTAKBANK,Kotak Mahindra Bank Ltd,Financial Services,Banks,503.0,-0.01,Yes,94.6,80.2,Yes,Yes,Yes,Yes,0.77,Yes,13.72,1019.66,500402.0,406.97,Yes,No
 2026-11-19,KARURVYSYA,Karur Vysya Bank Ltd,Financial Services,Banks,384.0,-3.48,Yes,84.8,80.3,Yes,Yes,Yes,Yes,1.02,Yes,3.77,113.89,37120.0,320.52,Yes,No
 2026-11-19,SOUTHBANK,South Indian Bank Ltd,Financial Services,Banks,59.64,-4.68,Yes,95.7,90.1,Yes,Yes,Yes,Yes,0.77,Yes,9.92,90.88,15627.0,46.4,Yes,No
@@ -2366,7 +2366,7 @@ Date,Symbol,Company Name,Sector,Industry,Price,% From 52W High,Within 20% of Hig
 2026-11-20,HMAAGRO,HMA Agro Inds.,Fast Moving Consumer Goods,Food Products,33.91,-2.05,Yes,98.9,81.1,Yes,Yes,Yes,No,4.52,No,39.6,26.75,1698.0,23.28,No,Yes
 2026-11-20,CUPID,Cupid,Fast Moving Consumer Goods,Personal Products,365.65,-6.96,Yes,94.4,97.7,Yes,Yes,Yes,Yes,0.47,Yes,7.31,456.81,49168.0,233.75,Yes,No
 2026-11-20,HONASA,Honasa Consumer,Fast Moving Consumer Goods,Personal Products,525.4,-1.78,Yes,80.5,87.2,Yes,Yes,Yes,Yes,1.01,Yes,19.1,80.26,17143.0,437.16,Yes,No
-2026-11-20,ICICIBANK,ICICI Bank Ltd,Financial Services,Banks,1640.0,-0.3,Yes,87.8,77.1,Yes,Yes,Yes,Yes,0.98,Yes,18.41,2529.63,1178272.0,1371.91,No,No
+2026-11-20,ICICIBANK,ICICI Bank Ltd,Financial Services,Banks,1640.0,-0.3,Yes,87.8,77.1,Yes,Yes,Yes,Yes,0.98,Yes,18.41,2529.63,1178278.0,1371.91,No,No
 2026-11-20,KOTAKBANK,Kotak Mahindra Bank Ltd,Financial Services,Banks,515.8,-0.15,Yes,95.9,82.4,Yes,Yes,Yes,Yes,0.83,Yes,17.82,1031.69,513136.0,407.87,Yes,No
 2026-11-20,KARURVYSYA,Karur Vysya Bank Ltd,Financial Services,Banks,377.0,-5.24,Yes,84.4,79.7,Yes,Yes,Yes,Yes,1.15,Yes,4.82,114.37,36443.0,321.19,No,No
 2026-11-20,CUB,City Union Bank Ltd,Financial Services,Banks,248.8,-0.88,Yes,82.9,76.8,Yes,Yes,Yes,Yes,2.02,Yes,8.25,107.21,24651.0,212.81,No,No
@@ -2458,13 +2458,13 @@ Date,Symbol,Company Name,Sector,Industry,Price,% From 52W High,Within 20% of Hig
 2026-11-20,BHARTIARTL,Bharti Airtel,Telecommunication,Telecom - Services,2161.7,-0.49,Yes,82.6,68.0,Yes,Yes,Yes,Yes,0.8,Yes,14.27,1832.18,1348782.0,1882.62,No,No
 2026-11-20,ADANIGREEN,Adani Green Energy Ltd,Power,Power,1435.0,-12.04,Yes,80.7,74.5,Yes,Yes,Yes,Yes,1.12,Yes,14.02,272.09,236370.0,1367.5,No,No
 2026-11-23,DEEPAKFERT,Deepak Fertilisers & Petrochemicals Ltd,Chemicals,Chemicals & Petrochemicals,1416.5,-15.16,Yes,56.6,58.6,Yes,Yes,Yes,Yes,2.25,No,20.16,76.17,17900.0,1398.19,No,Yes
-2026-11-23,NAVINFLUOR,Navin Fluorine International Ltd,Chemicals,Chemicals & Petrochemicals,10154.0,-1.99,Yes,92.5,90.6,Yes,Yes,Yes,Yes,1.3,Yes,27.9,247.04,52122.0,7900.79,Yes,No
+2026-11-23,NAVINFLUOR,Navin Fluorine International Ltd,Chemicals,Chemicals & Petrochemicals,10154.0,-1.99,Yes,92.5,90.6,Yes,Yes,Yes,Yes,1.3,Yes,27.9,247.05,52122.0,7900.79,Yes,No
 2026-11-23,FINEORG,Fine Organic,Chemicals,Chemicals & Petrochemicals,5602.5,-1.12,Yes,82.8,76.4,Yes,Yes,Yes,Yes,1.48,Yes,9.91,10.84,17177.0,5031.67,No,No
 2026-11-23,NEOGEN,Neogen Chemicals,Chemicals,Chemicals & Petrochemicals,2787.7,-6.14,Yes,92.7,94.5,Yes,Yes,Yes,Yes,1.33,Yes,24.5,47.48,8375.0,2120.07,Yes,No
 2026-11-23,MBAPL,M B Agro Prod.,Chemicals,Fertilizers & Agrochemicals,192.2,-8.04,Yes,89.8,93.7,Yes,Yes,Yes,Yes,1.01,Yes,20.24,22.06,8421.0,144.58,Yes,No
 2026-11-23,KRISHANA,Krishana Phosch.,Chemicals,Fertilizers & Agrochemicals,241.26,-5.38,Yes,92.2,94.8,Yes,Yes,Yes,Yes,0.8,Yes,21.32,25.32,7458.0,171.09,Yes,No
 2026-11-23,ARIS,Arisinfra Solu.,Construction Materials,Other Construction Materials,166.8,-1.85,Yes,91.1,83.6,Yes,Yes,Yes,Yes,2.17,Yes,23.73,32.69,1364.0,130.82,Yes,Yes
-2026-11-23,SGMART,SG Mart,Metals & Mining,Metals & Minerals Trading,1036.8,-17.35,Yes,95.0,96.4,Yes,Yes,Yes,Yes,3.68,No,37.02,150.23,13071.0,706.72,Yes,Yes
+2026-11-23,SGMART,SG Mart,Metals & Mining,Metals & Minerals Trading,1036.8,-17.35,Yes,95.0,96.4,Yes,Yes,Yes,Yes,3.68,No,37.02,150.26,13071.0,706.72,Yes,Yes
 2026-11-23,SONACOMS,Sona BLW Precis.,Automobile and Auto Components,Auto Components,886.0,-5.23,Yes,77.9,86.2,Yes,Yes,Yes,Yes,0.65,No,15.83,285.2,55428.0,727.98,Yes,No
 2026-11-23,CRAFTSMAN,Craftsman Auto,Automobile and Auto Components,Auto Components,11649.0,-4.59,Yes,79.9,84.1,Yes,Yes,Yes,Yes,0.86,No,5.92,59.73,30467.0,9858.94,Yes,No
 2026-11-23,ASAHIINDIA,Asahi India Glas,Automobile and Auto Components,Auto Components,1178.45,-1.71,Yes,92.9,81.9,Yes,Yes,Yes,Yes,1.15,Yes,29.0,28.34,30042.0,918.6,Yes,No
@@ -2473,10 +2473,10 @@ Date,Symbol,Company Name,Sector,Industry,Price,% From 52W High,Within 20% of Hig
 2026-11-23,JAMNAAUTO,Jamna Auto Inds.,Automobile and Auto Components,Auto Components,134.83,-12.95,Yes,86.0,72.9,Yes,Yes,Yes,Yes,0.67,Yes,5.97,29.91,5394.0,127.64,No,No
 2026-11-23,SSWL,Steel Str. Wheel,Automobile and Auto Components,Auto Components,490.45,-16.7,Yes,99.1,98.1,Yes,Yes,Yes,Yes,0.35,No,25.91,158.12,7713.0,319.31,Yes,No
 2026-11-23,KROSS,Kross Ltd,Automobile and Auto Components,Auto Components,277.0,-15.13,Yes,96.1,87.5,Yes,Yes,Yes,Yes,0.24,No,-5.96,41.67,1828.0,220.53,Yes,No
-2026-11-23,ALICON,Alicon Cast.,Automobile and Auto Components,Auto Components,1028.85,-7.48,Yes,97.2,85.7,Yes,Yes,Yes,Yes,1.67,Yes,23.25,26.35,1681.0,730.36,Yes,Yes
-2026-11-23,ATHERENERG,Ather Energy,Automobile and Auto Components,Automobiles,1979.2,-2.09,Yes,97.0,98.3,Yes,Yes,Yes,Yes,0.52,Yes,38.86,639.61,78597.0,1321.91,Yes,No
-2026-11-23,MARUTI,Maruti Suzuki India Ltd,Automobile and Auto Components,Automobiles,14010.0,-18.53,Yes,66.7,53.0,Yes,Yes,No,No,1.91,No,25.43,936.31,440478.0,12955.83,No,Yes
-2026-11-23,KALYANKJIL,Kalyan Jewellers,Consumer Durables,Consumer Durables,652.9,-10.48,Yes,82.0,85.0,Yes,Yes,Yes,Yes,1.63,Yes,23.1,1029.54,67428.0,504.59,Yes,Yes
+2026-11-23,ALICON,Alicon Cast.,Automobile and Auto Components,Auto Components,1028.85,-7.48,Yes,97.2,85.7,Yes,Yes,Yes,Yes,1.67,Yes,23.25,26.36,1681.0,730.36,Yes,Yes
+2026-11-23,ATHERENERG,Ather Energy,Automobile and Auto Components,Automobiles,1979.2,-2.09,Yes,97.0,98.3,Yes,Yes,Yes,Yes,0.52,Yes,38.86,639.63,78597.0,1321.91,Yes,No
+2026-11-23,MARUTI,Maruti Suzuki India Ltd,Automobile and Auto Components,Automobiles,14010.0,-18.53,Yes,66.7,53.0,Yes,Yes,No,No,1.91,No,25.43,936.32,440478.0,12955.83,No,Yes
+2026-11-23,KALYANKJIL,Kalyan Jewellers,Consumer Durables,Consumer Durables,652.9,-10.48,Yes,82.0,85.0,Yes,Yes,Yes,Yes,1.63,Yes,23.1,1029.55,67428.0,504.59,Yes,Yes
 2026-11-23,KDDL,KDDL Ltd,Consumer Durables,Consumer Durables,4604.0,-11.43,Yes,89.3,92.0,Yes,Yes,Yes,Yes,6.15,Yes,25.75,59.71,5663.0,3403.69,Yes,Yes
 2026-11-23,BOROLTD,Borosil,Consumer Durables,Consumer Durables,323.5,-6.76,Yes,93.4,78.3,Yes,Yes,Yes,Yes,0.34,Yes,34.15,53.6,3869.0,252.64,No,No
 2026-11-23,SHALPAINTS,Shalimar Paints,Consumer Durables,Consumer Durables,103.97,-10.98,Yes,93.5,92.1,Yes,Yes,Yes,Yes,5.38,Yes,27.87,7.77,870.0,68.78,Yes,Yes
@@ -2487,24 +2487,24 @@ Date,Symbol,Company Name,Sector,Industry,Price,% From 52W High,Within 20% of Hig
 2026-11-23,THOMASCOOK,Thomas Cook (I),Consumer Services,Leisure Services,129.39,-19.62,Yes,94.4,73.2,Yes,Yes,No,No,5.7,No,36.8,38.69,6029.0,102.18,No,Yes
 2026-11-23,PWL,Physicswallah,Consumer Services,Other Consumer Services,139.76,-13.72,Yes,87.2,,Yes,Yes,Yes,Yes,2.11,Yes,12.15,149.5,40672.0,123.46,No,No
 2026-11-23,ETERNAL,Eternal,Consumer Services,Retailing,362.1,-4.21,Yes,82.5,78.8,Yes,Yes,Yes,Yes,0.89,Yes,18.94,841.51,333595.0,298.08,No,No
-2026-11-23,MEESHO,Meesho,Consumer Services,Retailing,253.11,-4.49,Yes,91.8,,Yes,Yes,Yes,Yes,1.05,Yes,15.44,368.47,117234.0,202.28,No,No
+2026-11-23,MEESHO,Meesho,Consumer Services,Retailing,253.11,-4.49,Yes,91.8,,Yes,Yes,Yes,Yes,1.05,Yes,15.44,368.48,117234.0,202.28,No,No
 2026-11-23,URBANCO,Urban Company,Consumer Services,Retailing,168.68,-8.31,Yes,88.2,82.2,Yes,Yes,Yes,Yes,3.29,Yes,21.09,157.89,27715.0,145.49,Yes,Yes
 2026-11-23,ENTERO,Entero Healthcare Solutions Ltd,Consumer Services,Retailing,1883.7,-11.88,Yes,96.5,92.4,Yes,Yes,Yes,Yes,0.54,Yes,25.67,51.31,8207.0,1440.62,Yes,No
 2026-11-23,LENSKART,Lenskart Solut.,Consumer Services,Retailing,714.5,-6.33,Yes,80.1,84.2,Yes,Yes,Yes,Yes,0.72,Yes,12.65,422.66,123786.0,594.79,Yes,No
-2026-11-23,STYLEBAAZA,Baazar Style,Consumer Services,Retailing,503.35,-7.64,Yes,87.1,86.7,Yes,Yes,Yes,Yes,1.93,Yes,36.04,107.42,3982.0,363.48,Yes,Yes
+2026-11-23,STYLEBAAZA,Baazar Style,Consumer Services,Retailing,503.35,-7.64,Yes,87.1,86.7,Yes,Yes,Yes,Yes,1.93,Yes,36.04,107.43,3982.0,363.48,Yes,Yes
 2026-11-23,NAZARA,Nazara Technolo.,"Media, Entertainment & Publication",Entertainment,409.95,-5.81,Yes,87.3,86.2,Yes,Yes,Yes,Yes,0.46,Yes,5.67,48.53,16750.0,336.57,Yes,No
 2026-11-23,PVRINOX,PVR Inox,"Media, Entertainment & Publication",Entertainment,1699.7,-2.71,Yes,97.4,93.4,Yes,Yes,Yes,Yes,1.1,Yes,19.71,156.9,16339.0,1176.57,Yes,No
 2026-11-23,SAREGAMA,Saregama India,"Media, Entertainment & Publication",Entertainment,657.6,-5.16,Yes,93.7,93.0,Yes,Yes,Yes,Yes,0.53,Yes,29.22,144.81,12623.0,485.12,Yes,No
 2026-11-23,TIPSMUSIC,Tips Music,"Media, Entertainment & Publication",Entertainment,805.2,-3.51,Yes,93.1,86.1,Yes,Yes,Yes,Yes,0.54,Yes,11.33,39.59,10239.0,673.5,Yes,No
 2026-11-23,SUNTV,Sun TV Network,"Media, Entertainment & Publication",Entertainment,678.8,-4.91,Yes,98.2,83.0,Yes,Yes,Yes,Yes,0.68,Yes,13.79,63.28,26750.0,534.15,No,No
-2026-11-23,DLF,DLF,Realty,Realty,794.1,-0.23,Yes,89.5,78.1,Yes,Yes,Yes,Yes,0.82,Yes,19.73,225.18,196564.0,646.17,No,No
+2026-11-23,DLF,DLF,Realty,Realty,794.1,-0.23,Yes,89.5,78.1,Yes,Yes,Yes,Yes,0.82,Yes,19.73,225.19,196564.0,646.17,No,No
 2026-11-23,PHOENIXLTD,Phoenix Mills,Realty,Realty,2276.2,-2.1,Yes,90.2,81.6,Yes,Yes,Yes,Yes,1.45,Yes,19.18,109.24,81420.0,1917.72,Yes,No
 2026-11-23,SIGNATURE,SignatureGlobal,Realty,Realty,859.85,-25.48,No,77.4,50.2,Yes,Yes,No,No,1.97,No,20.55,41.32,12097.0,790.45,No,Yes
 2026-11-23,LOTUSDEV,Sri Lotus,Realty,Realty,229.82,-8.95,Yes,97.3,90.8,Yes,Yes,Yes,Yes,0.45,Yes,-3.18,53.39,11232.0,180.24,Yes,No
 2026-11-23,AJMERA,Ajmera Realty,Realty,Realty,162.62,-21.49,No,97.1,74.6,Yes,Yes,Yes,No,6.31,No,27.39,36.31,3200.0,124.02,No,Yes
 2026-11-23,ALEMBICLTD,Alembic,Realty,Realty,104.73,-11.42,Yes,86.9,72.9,Yes,Yes,Yes,Yes,0.38,Yes,16.01,29.9,2689.0,93.36,No,No
 2026-11-23,PGIL,Pearl Global Ind,Textiles,Textiles & Apparels,1479.4,-3.62,Yes,93.3,94.0,Yes,Yes,Yes,Yes,1.93,Yes,22.54,29.02,13683.0,1061.9,Yes,Yes
-2026-11-23,SBC,SBC Exports,Textiles,Textiles & Apparels,68.07,-4.52,Yes,99.4,98.1,Yes,Yes,Yes,Yes,0.84,Yes,9.58,87.87,3241.0,46.39,Yes,No
+2026-11-23,SBC,SBC Exports,Textiles,Textiles & Apparels,68.07,-4.52,Yes,99.4,98.1,Yes,Yes,Yes,Yes,0.85,Yes,9.58,88.06,3241.0,46.39,Yes,No
 2026-11-23,WELSPUNLIV,Welspun Living,Textiles,Textiles & Apparels,270.76,-2.95,Yes,98.3,96.6,Yes,Yes,Yes,Yes,1.37,Yes,26.56,311.32,25491.0,181.73,Yes,No
 2026-11-23,ICIL,Indo Count Inds.,Textiles,Textiles & Apparels,593.3,-0.74,Yes,96.9,96.1,Yes,Yes,Yes,Yes,1.12,Yes,46.22,61.28,11751.0,402.25,Yes,No
 2026-11-23,NITINSPIN,Nitin Spinners,Textiles,Textiles & Apparels,699.2,-3.55,Yes,91.2,91.5,Yes,Yes,Yes,Yes,1.76,Yes,12.24,13.04,3931.0,569.53,Yes,No
@@ -2514,7 +2514,7 @@ Date,Symbol,Company Name,Sector,Industry,Price,% From 52W High,Within 20% of Hig
 2026-11-23,FAZE3Q,Faze Three,Textiles,Textiles & Apparels,583.95,-14.94,Yes,90.8,70.8,Yes,Yes,No,Yes,4.75,No,35.99,22.24,1417.0,505.36,No,Yes
 2026-11-23,GHCLTEXTIL,GHCL Textiles,Textiles,Textiles & Apparels,144.42,-3.49,Yes,88.9,91.4,Yes,Yes,Yes,Yes,3.13,Yes,22.11,12.55,1380.0,113.22,Yes,Yes
 2026-11-23,PDSL,PDS,Textiles,Textiles & Apparels,413.25,-2.76,Yes,84.4,77.2,Yes,Yes,Yes,Yes,0.62,Yes,24.92,37.43,5836.0,340.18,No,No
-2026-11-23,PETRONET,Petronet LNG Ltd,"Oil, Gas & Consumable Fuels",Gas,326.05,-3.05,Yes,87.0,76.5,Yes,Yes,Yes,Yes,0.99,Yes,14.81,108.36,48908.0,279.19,No,No
+2026-11-23,PETRONET,Petronet LNG Ltd,"Oil, Gas & Consumable Fuels",Gas,326.05,-3.05,Yes,87.0,76.5,Yes,Yes,Yes,Yes,0.99,Yes,14.81,108.37,48908.0,279.19,No,No
 2026-11-23,HINDOILEXP,Hindustan Oil Exploration,"Oil, Gas & Consumable Fuels",Oil,224.03,-6.22,Yes,97.9,90.3,Yes,Yes,Yes,Yes,2.9,Yes,36.01,58.46,2963.0,166.73,Yes,Yes
 2026-11-23,AVTNPL,AVT Natural Prod,Fast Moving Consumer Goods,Agricultural Food & other Products,100.59,-7.25,Yes,86.2,86.8,Yes,Yes,Yes,Yes,1.82,Yes,14.09,9.19,1532.0,79.67,Yes,No
 2026-11-23,UTTAMSUGAR,Uttam Sug.Mills,Fast Moving Consumer Goods,Agricultural Food & other Products,348.5,-13.09,Yes,73.3,82.0,Yes,Yes,Yes,Yes,0.27,No,-1.02,11.16,1329.0,274.46,Yes,No
@@ -2523,23 +2523,23 @@ Date,Symbol,Company Name,Sector,Industry,Price,% From 52W High,Within 20% of Hig
 2026-11-23,HMAAGRO,HMA Agro Inds.,Fast Moving Consumer Goods,Food Products,40.03,-1.62,Yes,99.7,90.5,Yes,Yes,Yes,No,6.2,No,66.65,51.65,2005.0,23.4,No,Yes
 2026-11-23,CUPID,Cupid,Fast Moving Consumer Goods,Personal Products,362.15,-7.85,Yes,94.8,97.9,Yes,Yes,Yes,Yes,0.38,Yes,13.15,441.28,48697.0,235.52,Yes,No
 2026-11-23,HONASA,Honasa Consumer,Fast Moving Consumer Goods,Personal Products,539.75,-0.6,Yes,84.5,89.2,Yes,Yes,Yes,Yes,1.15,Yes,22.0,86.17,17611.0,438.48,Yes,No
-2026-11-23,ICICIBANK,ICICI Bank Ltd,Financial Services,Banks,1585.5,-3.62,Yes,84.6,74.7,Yes,Yes,Yes,Yes,1.14,Yes,13.37,2625.27,1139116.0,1373.58,No,No
+2026-11-23,ICICIBANK,ICICI Bank Ltd,Financial Services,Banks,1585.5,-3.62,Yes,84.6,74.7,Yes,Yes,Yes,Yes,1.14,Yes,13.37,2625.29,1139122.0,1373.58,No,No
 2026-11-23,KOTAKBANK,Kotak Mahindra Bank Ltd,Financial Services,Banks,502.85,-3.58,Yes,93.8,80.5,Yes,Yes,Yes,Yes,0.89,Yes,15.07,1048.96,500253.0,408.7,Yes,No
 2026-11-23,KARURVYSYA,Karur Vysya Bank Ltd,Financial Services,Banks,384.1,-3.46,Yes,87.6,82.3,Yes,Yes,Yes,Yes,1.15,Yes,7.88,115.59,37130.0,321.89,Yes,No
-2026-11-23,CUB,City Union Bank Ltd,Financial Services,Banks,245.54,-3.33,Yes,84.1,76.3,Yes,Yes,Yes,Yes,2.16,Yes,8.52,113.89,24328.0,213.21,No,No
+2026-11-23,CUB,City Union Bank Ltd,Financial Services,Banks,245.54,-3.33,Yes,84.1,76.3,Yes,Yes,Yes,Yes,2.16,Yes,8.52,113.9,24328.0,213.21,No,No
 2026-11-23,SOUTHBANK,South Indian Bank Ltd,Financial Services,Banks,58.87,-5.91,Yes,95.5,89.9,Yes,Yes,Yes,Yes,0.98,Yes,5.6,91.73,15425.0,46.67,Yes,No
 2026-11-23,KTKBANK,Karnataka Bank Ltd,Financial Services,Banks,341.25,-7.97,Yes,71.0,81.3,Yes,Yes,Yes,Yes,1.09,No,8.76,83.97,12912.0,293.57,Yes,No
 2026-11-23,DCBBANK,DCB Bank Ltd,Financial Services,Banks,237.93,-1.22,Yes,93.6,83.3,Yes,Yes,Yes,Yes,0.95,Yes,15.45,28.07,7668.0,196.22,Yes,No
 2026-11-23,DHANBANK,Dhanlaxmi Bank Ltd,Financial Services,Banks,38.24,-14.53,Yes,89.9,82.7,Yes,Yes,Yes,Yes,2.13,Yes,3.1,63.88,1509.0,32.64,Yes,No
 2026-11-23,UNIONBANK,Union Bank of India,Financial Services,Banks,208.2,-5.24,Yes,85.2,79.5,Yes,Yes,Yes,Yes,1.17,Yes,13.86,313.04,158932.0,175.12,No,No
-2026-11-23,PNB,Punjab National Bank,Financial Services,Banks,149.75,-4.31,Yes,94.0,84.9,Yes,Yes,Yes,Yes,1.87,Yes,22.24,514.96,172107.0,113.61,No,Yes
-2026-11-23,MAHABANK,Bank of Maharashtra,Financial Services,Banks,97.56,-3.12,Yes,91.9,87.1,Yes,Yes,Yes,Yes,1.74,Yes,24.31,191.99,75039.0,82.37,Yes,Yes
-2026-11-23,MCX,MCX,Financial Services,Capital Markets,3581.6,-5.1,Yes,87.5,82.6,Yes,Yes,Yes,Yes,1.12,Yes,15.03,878.13,91157.0,3077.44,Yes,No
+2026-11-23,PNB,Punjab National Bank,Financial Services,Banks,149.75,-4.31,Yes,94.0,84.9,Yes,Yes,Yes,Yes,1.87,Yes,22.24,514.97,172107.0,113.61,No,Yes
+2026-11-23,MAHABANK,Bank of Maharashtra,Financial Services,Banks,97.56,-3.12,Yes,91.9,87.1,Yes,Yes,Yes,Yes,1.74,Yes,24.31,192.0,75039.0,82.37,Yes,Yes
+2026-11-23,MCX,MCX,Financial Services,Capital Markets,3581.6,-5.1,Yes,87.5,82.6,Yes,Yes,Yes,Yes,1.12,Yes,15.03,878.14,91157.0,3077.44,Yes,No
 2026-11-23,ANANDRATHI,Anand Rathi Wealth Ltd,Financial Services,Capital Markets,2355.9,-2.24,Yes,79.6,83.1,Yes,Yes,Yes,Yes,0.42,No,5.98,57.98,39118.0,2046.94,Yes,No
 2026-11-23,GCSL,Gretex Corporate,Financial Services,Capital Markets,849.3,-0.94,Yes,99.6,98.7,Yes,Yes,Yes,Yes,0.52,Yes,17.34,24.64,2124.0,544.2,Yes,No
-2026-11-23,MOTILALOFS,Motilal Oswal Financial Services Ltd,Financial Services,Capital Markets,1235.0,-3.35,Yes,93.9,87.7,Yes,Yes,Yes,Yes,1.44,Yes,26.41,190.4,74468.0,954.65,Yes,No
-2026-11-23,ANGELONE,Angel One,Financial Services,Capital Markets,337.0,-11.12,Yes,89.2,73.7,Yes,Yes,Yes,Yes,3.05,Yes,15.71,362.74,30840.0,312.25,No,No
-2026-11-23,IREDA,Indian Renewable,Financial Services,Finance,132.2,-12.2,Yes,88.0,64.1,Yes,Yes,No,No,4.36,No,28.84,216.48,37138.0,119.18,No,Yes
+2026-11-23,MOTILALOFS,Motilal Oswal Financial Services Ltd,Financial Services,Capital Markets,1235.0,-3.35,Yes,93.9,87.7,Yes,Yes,Yes,Yes,1.44,Yes,26.41,190.41,74468.0,954.65,Yes,No
+2026-11-23,ANGELONE,Angel One,Financial Services,Capital Markets,337.0,-11.12,Yes,89.2,73.7,Yes,Yes,Yes,Yes,3.05,Yes,15.71,362.75,30840.0,312.25,No,No
+2026-11-23,IREDA,Indian Renewable,Financial Services,Finance,132.2,-12.2,Yes,88.0,64.1,Yes,Yes,No,No,4.36,No,28.84,216.51,37138.0,119.18,No,Yes
 2026-11-23,TFCILTD,Tour. Fin. Corp.,Financial Services,Finance,173.51,-0.17,Yes,95.6,97.2,Yes,Yes,Yes,Yes,0.39,Yes,15.16,176.93,8033.0,111.76,Yes,No
 2026-11-23,LICHSGFIN,LIC Housing Fin.,Financial Services,Finance,606.0,-3.16,Yes,92.0,75.4,Yes,Yes,Yes,Yes,1.33,Yes,20.72,181.84,33334.0,536.45,No,No
 2026-11-23,SATIN,Satin Creditcare,Financial Services,Finance,252.17,-8.01,Yes,83.6,83.1,Yes,Yes,Yes,Yes,0.36,Yes,12.51,18.66,2774.0,229.79,Yes,No
@@ -2550,16 +2550,16 @@ Date,Symbol,Company Name,Sector,Industry,Price,% From 52W High,Within 20% of Hig
 2026-11-23,YATHARTH,Yatharth Hospital & Trauma Care Services Ltd,Healthcare,Healthcare Services,1085.05,-8.36,Yes,94.5,86.5,Yes,Yes,Yes,Yes,0.44,Yes,17.84,30.44,10455.0,905.98,Yes,No
 2026-11-23,ANTHEM,Anthem Bioscienc,Healthcare,Pharmaceuticals & Biotechnology,957.35,-3.21,Yes,81.0,79.4,Yes,Yes,Yes,Yes,0.61,Yes,19.56,39.22,53949.0,829.11,No,No
 2026-11-23,DIVISLAB,Divi's Laboratories Ltd,Healthcare,Pharmaceuticals & Biotechnology,11203.0,-5.25,Yes,95.7,94.0,Yes,Yes,Yes,Yes,1.04,Yes,22.28,917.1,297404.0,8151.42,Yes,No
-2026-11-23,DRREDDY,Dr Reddy's Laboratories Ltd,Healthcare,Pharmaceuticals & Biotechnology,1380.1,-1.85,Yes,89.1,70.3,Yes,Yes,Yes,Yes,0.49,Yes,11.39,268.84,115054.0,1253.33,No,No
-2026-11-23,MANKIND,Mankind Pharma Ltd,Healthcare,Pharmaceuticals & Biotechnology,2615.1,-3.32,Yes,81.3,70.1,Yes,Yes,Yes,Yes,0.47,Yes,14.92,181.51,108025.0,2430.01,No,No
+2026-11-23,DRREDDY,Dr Reddy's Laboratories Ltd,Healthcare,Pharmaceuticals & Biotechnology,1380.1,-1.85,Yes,89.1,70.3,Yes,Yes,Yes,Yes,0.49,Yes,11.39,268.88,115054.0,1253.33,No,No
+2026-11-23,MANKIND,Mankind Pharma Ltd,Healthcare,Pharmaceuticals & Biotechnology,2615.1,-3.32,Yes,81.3,70.1,Yes,Yes,Yes,Yes,0.47,Yes,14.92,181.52,108025.0,2430.01,No,No
 2026-11-23,AUROPHARMA,Aurobindo Pharma Ltd,Healthcare,Pharmaceuticals & Biotechnology,1796.5,-3.41,Yes,84.2,82.0,Yes,Yes,Yes,Yes,0.97,Yes,11.94,237.91,103367.0,1583.72,Yes,No
 2026-11-23,GLENMARK,Glenmark Pharmaceuticals Ltd,Healthcare,Pharmaceuticals & Biotechnology,2657.0,-2.1,Yes,86.7,78.3,Yes,Yes,Yes,Yes,0.78,Yes,20.86,236.78,74987.0,2323.63,No,No
-2026-11-23,LAURUSLABS,Laurus Labs Ltd,Healthcare,Pharmaceuticals & Biotechnology,2370.7,-4.71,Yes,95.4,96.3,Yes,Yes,Yes,Yes,1.02,Yes,18.44,713.04,128092.0,1722.28,Yes,No
+2026-11-23,LAURUSLABS,Laurus Labs Ltd,Healthcare,Pharmaceuticals & Biotechnology,2370.7,-4.71,Yes,95.4,96.3,Yes,Yes,Yes,Yes,1.02,Yes,18.44,713.05,128092.0,1722.28,Yes,No
 2026-11-23,ACUTAAS,Acutaas Chemical,Healthcare,Pharmaceuticals & Biotechnology,3875.0,-6.17,Yes,91.7,90.6,Yes,Yes,Yes,Yes,0.58,Yes,20.52,362.26,31725.0,3245.44,Yes,No
 2026-11-23,EMCURE,Emcure Pharmaceuticals Ltd,Healthcare,Pharmaceuticals & Biotechnology,2309.9,-3.83,Yes,92.4,88.8,Yes,Yes,Yes,Yes,0.68,Yes,29.58,66.46,43821.0,1863.77,Yes,No
 2026-11-23,GLAND,Gland Pharma Ltd,Healthcare,Pharmaceuticals & Biotechnology,3297.4,-3.84,Yes,89.0,90.4,Yes,Yes,Yes,Yes,0.5,Yes,15.68,140.99,54412.0,2591.95,Yes,No
 2026-11-23,PPLPHARMA,Piramal Pharma,Healthcare,Pharmaceuticals & Biotechnology,236.89,-6.7,Yes,80.8,79.2,Yes,Yes,Yes,Yes,0.44,Yes,21.49,287.36,31414.0,193.46,No,No
-2026-11-23,WOCKPHARMA,Wockhardt Ltd,Healthcare,Pharmaceuticals & Biotechnology,2152.3,-11.15,Yes,89.7,87.5,Yes,Yes,Yes,Yes,1.17,Yes,16.0,149.83,34977.0,1897.12,Yes,No
+2026-11-23,WOCKPHARMA,Wockhardt Ltd,Healthcare,Pharmaceuticals & Biotechnology,2152.3,-11.15,Yes,89.7,87.5,Yes,Yes,Yes,Yes,1.17,Yes,16.0,149.84,34977.0,1897.12,Yes,No
 2026-11-23,SAILIFE,Sai Life Sciences Ltd,Healthcare,Pharmaceuticals & Biotechnology,1809.1,-7.45,Yes,92.3,93.5,Yes,Yes,Yes,Yes,0.8,Yes,29.6,353.3,38438.0,1364.68,Yes,No
 2026-11-23,APLLTD,Alembic Pharma,Healthcare,Pharmaceuticals & Biotechnology,1016.8,-5.41,Yes,93.3,82.6,Yes,Yes,Yes,Yes,0.65,Yes,30.14,62.83,19987.0,809.67,Yes,No
 2026-11-23,SUDEEPPHRM,Sudeep Pharma,Healthcare,Pharmaceuticals & Biotechnology,1250.0,-9.29,Yes,85.4,,Yes,Yes,Yes,Yes,1.3,Yes,29.94,34.94,14119.0,949.77,No,No
@@ -2591,8 +2591,8 @@ Date,Symbol,Company Name,Sector,Industry,Price,% From 52W High,Within 20% of Hig
 2026-11-23,SHYAMMETL,Shyam Metalics,Capital Goods,Industrial Products,1276.2,-7.65,Yes,94.7,88.5,Yes,Yes,Yes,Yes,0.72,Yes,6.35,49.97,35527.0,1032.05,Yes,No
 2026-11-23,SAMBHV,Sambhv Steel,Capital Goods,Industrial Products,176.9,-1.61,Yes,96.6,93.4,Yes,Yes,Yes,Yes,1.11,Yes,10.51,51.87,5213.0,130.64,Yes,No
 2026-11-23,HITECH,Hi-Tech Pipes,Capital Goods,Industrial Products,85.63,-23.06,No,81.9,55.3,Yes,Yes,No,No,4.28,No,29.47,18.14,1736.0,81.75,No,Yes
-2026-11-23,MANAKCOAT,Manaksia Coated,Capital Goods,Industrial Products,155.54,-15.84,Yes,92.1,82.3,Yes,Yes,Yes,Yes,0.87,No,23.57,27.51,1845.0,121.95,Yes,No
-2026-11-23,RATNAVEER,Ratnaveer Precis,Capital Goods,Industrial Products,403.3,-0.86,Yes,98.7,98.7,Yes,Yes,Yes,Yes,0.65,Yes,23.6,123.42,3385.0,244.36,Yes,No
+2026-11-23,MANAKCOAT,Manaksia Coated,Capital Goods,Industrial Products,155.54,-15.84,Yes,92.1,82.3,Yes,Yes,Yes,Yes,0.89,No,23.57,27.59,1845.0,121.95,Yes,No
+2026-11-23,RATNAVEER,Ratnaveer Precis,Capital Goods,Industrial Products,403.3,-0.86,Yes,98.7,98.7,Yes,Yes,Yes,Yes,0.65,Yes,23.6,123.46,3385.0,244.36,Yes,No
 2026-11-23,INOXINDIA,Inox India,Capital Goods,Industrial Products,2088.0,-10.75,Yes,79.4,86.2,Yes,Yes,Yes,Yes,3.58,No,8.77,77.15,18994.0,1869.52,Yes,No
 2026-11-23,GRWRHITECH,Garware Hi Tech,Capital Goods,Industrial Products,7895.0,-2.28,Yes,83.8,89.0,Yes,Yes,Yes,Yes,0.62,Yes,18.55,41.59,18342.0,6536.44,Yes,No
 2026-11-23,TINNARUBR,Tinna Rubber,Capital Goods,Industrial Products,913.35,-30.69,No,31.0,51.5,Yes,Yes,Yes,Yes,6.4,No,22.53,31.72,1645.0,917.2,No,Yes
@@ -2601,7 +2601,7 @@ Date,Symbol,Company Name,Sector,Industry,Price,% From 52W High,Within 20% of Hig
 2026-11-23,SIMPLEXINF,Simplex Infra,Construction,Construction,286.6,-9.87,Yes,82.6,73.4,Yes,Yes,Yes,Yes,1.66,Yes,9.35,8.25,2267.0,252.3,No,No
 2026-11-23,LTTS,L&T Technology,Information Technology,IT - Services,4222.6,-9.19,Yes,90.4,74.9,Yes,Yes,Yes,Yes,0.36,Yes,7.3,68.67,44800.0,3524.82,No,No
 2026-11-23,TECHM,Tech Mahindra Ltd,Information Technology,IT - Software,1777.5,-4.44,Yes,84.7,77.6,Yes,Yes,Yes,Yes,0.76,Yes,-2.02,419.91,157515.0,1536.86,No,No
-2026-11-23,COFORGE,Coforge Ltd,Information Technology,IT - Software,2142.3,-1.63,Yes,86.4,84.3,Yes,Yes,Yes,Yes,1.58,Yes,12.23,612.25,94917.0,1663.28,Yes,No
+2026-11-23,COFORGE,Coforge Ltd,Information Technology,IT - Software,2142.3,-1.63,Yes,86.4,84.3,Yes,Yes,Yes,Yes,1.58,Yes,12.23,612.26,94917.0,1663.28,Yes,No
 2026-11-23,63MOONS,63 Moons Technologies Ltd,Information Technology,IT - Software,912.6,-9.19,Yes,90.6,82.0,Yes,Yes,Yes,Yes,1.16,Yes,5.23,38.36,4205.0,776.32,Yes,No
 2026-11-23,TANLA,Tanla Platforms,Information Technology,IT - Software,680.5,-7.91,Yes,91.3,82.7,Yes,Yes,Yes,Yes,0.59,Yes,18.2,91.01,8986.0,548.51,Yes,No
 2026-11-23,IGIL,International Gemological Instit,Services,Commercial Services & Supplies,431.1,-4.97,Yes,95.2,81.7,Yes,Yes,Yes,Yes,0.5,Yes,22.06,66.29,18630.0,352.27,Yes,No
@@ -2609,7 +2609,7 @@ Date,Symbol,Company Name,Sector,Industry,Price,% From 52W High,Within 20% of Hig
 2026-11-23,ADANIPORTS,Adani Ports,Services,Transport Infrastructure,1919.0,-3.03,Yes,86.1,74.8,Yes,Yes,Yes,Yes,0.62,Yes,9.66,519.26,442130.0,1766.62,No,No
 2026-11-23,VRLLOG,VRL Logistics,Services,Transport Services,336.55,-3.93,Yes,86.6,78.1,Yes,Yes,Yes,Yes,0.65,Yes,26.26,66.08,5593.0,270.19,No,No
 2026-11-23,GESHIP,GE Shipping Co,Services,Transport Services,1538.3,-12.06,Yes,91.0,72.0,Yes,Yes,Yes,Yes,0.54,Yes,2.31,121.52,19837.0,1434.5,No,No
-2026-11-23,SHREEJISPG,Shreeji Ship. Gl,Services,Transport Services,910.0,-2.98,Yes,98.5,98.4,Yes,Yes,Yes,Yes,0.66,Yes,15.36,75.08,14826.0,622.67,Yes,No
+2026-11-23,SHREEJISPG,Shreeji Ship. Gl,Services,Transport Services,910.0,-2.98,Yes,98.5,98.4,Yes,Yes,Yes,Yes,0.67,Yes,15.36,75.26,14826.0,622.67,Yes,No
 2026-11-23,ITI,ITI,Telecommunication,Telecom - Equipment & Accessories,276.21,-17.04,Yes,61.0,46.8,Yes,Yes,No,No,3.93,No,21.53,164.99,26595.0,275.2,No,Yes
 2026-11-23,OPTIEMUS,Optiemus Infra.,Telecommunication,Telecom - Equipment & Accessories,778.55,-15.82,Yes,97.6,93.0,Yes,Yes,Yes,Yes,0.39,No,7.39,31.81,7020.0,584.35,Yes,No
 2026-11-23,BHARTIARTL,Bharti Airtel,Telecommunication,Telecom - Services,2128.5,-2.04,Yes,81.1,67.2,Yes,Yes,Yes,Yes,0.7,Yes,12.32,1799.46,1328067.0,1884.69,No,No
